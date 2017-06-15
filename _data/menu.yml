@@ -1,0 +1,34 @@
+t:
+  fr:
+    accueil:
+      name: "Accueil"
+      url: "/pages/index/"
+    actus:
+      name: "Actualités"
+      url: "/pages/actualites/"
+    enseignement:
+      name: "Enseignement"
+      url: "/pages/enseignement/"
+    recherche:
+      name: "Recherches"
+      url: "/pages/recherche/"
+    contact:
+      name: "Contact"
+      url: "/pages/contact/"
+
+  en:
+    accueil:
+      name: "Home"
+      url: "/pages/accueil-en/"
+    actus:
+      name: "News"
+      url: "/pages/actualites-en/"
+    enseignement:
+      name: "Teaching"
+      url: "/pages/enseignement-en/"
+    recherche:
+      name: "Research"
+      url: "/pages/recherche-en/"
+    contact:
+      name: "Contact"
+      url: "/pages/contact-en/"
