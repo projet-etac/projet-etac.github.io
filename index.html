@@ -5,6 +5,22 @@ lang: fr
 ref: accueil
 
 ---
+<!-- Detect language of the browser -->
+<script type="text/javascript">
+console.log(isInsideNavigation);
+if ( )
+var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
+
+// translate language code to actual language
+  if (lang.indexOf('fr') > -1)
+  {
+
+  }
+    else{
+      document.location.href="/pages/accueil-en.html";
+    }
+
+</script>
 
 <!-- Slider Start -->
 <section id="slider">
@@ -12,8 +28,8 @@ ref: accueil
     <div class="row">
       <div class="col-md-10 col-md-offset-2">
         <div class="block">
-          <h1 class="animated fadeInUp">A DIGITAL MARKETING &#38; <br> DESIGN AGENCY</h1>
-          <p class="animated fadeInUp">We love the Web and the work we do.We work closely with our </br> clients to deliver the best possible solutions for their needs</p>
+          <h1 class="animated fadeInUp">e-TAC</h1>
+          <p class="animated fadeInUp">Un Projet d'Investissement d'Avenir consacré aux Interfaces Tangibles Augmentées en milieu éducatif.</p>
         </div>
       </div>
     </div>
@@ -26,11 +42,12 @@ ref: accueil
       <div class="col-md-7 col-sm-12">
         <div class="block">
           <div class="section-title">
-            <h2>About Us</h2>
+            <h2>Le projet E-Tac</h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
           </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id </p>
         </div>
+          <a href="#" class="btn btn-view-works">L'enseignement</a>
       </div><!-- .col-md-7 close -->
       <div class="col-md-5 col-sm-12">
         <div class="block">
@@ -45,87 +62,87 @@ ref: accueil
 <div class="container">
   <div class="row">
     <div class="col-md-6 col-md-offset-6">
-      <h2>WE BELIEVE IN GREAT IDEAS</h2>
+      <h2>Les ITA kezako ? </h2>
       <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
       <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
       <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <a href="#" class="btn btn-view-works">View Works</a>
+      <a href="#" class="btn btn-view-works">Nos recherches</a>
     </div>
   </div>
 </div>
 </section>
 
 <!-- Service Start -->
-<section id="service">
-  <div class="container">
-    <div class="row">
-      <div class="section-title">
-        <h2>Our Services</h2>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+  <!-- <section id="service">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Our Services</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-sm-6 col-md-3">
+          <div class="service-item">
+            <i class="icon ion-coffee"></i>
+            <h4>Branding</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service-item">
+            <i class="ion-compass"></i>
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service-item">
+            <i class="ion-image"></i>
+            <h4>App Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service-item">
+            <i class="ion-bug"></i>
+            <h4>Start Up</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service-item">
+            <i class="ion-headphone"></i>
+            <h4>Logo Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service-item">
+            <i class="ion-leaf"></i>
+            <h4>Development</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service-item">
+            <i class="ion-planet"></i>
+            <h4>Brand Identity</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service-item">
+            <i class="ion-earth"></i>
+            <h4>Brand Identity</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="row ">
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="icon ion-coffee"></i>
-          <h4>Branding</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-compass"></i>
-          <h4>Web Design</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-image"></i>
-          <h4>App Design</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-bug"></i>
-          <h4>Start Up</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-headphone"></i>
-          <h4>Logo Design</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-leaf"></i>
-          <h4>Development</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-planet"></i>
-          <h4>Brand Identity</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-earth"></i>
-          <h4>Brand Identity</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+  </section> -->
 <!-- Call to action Start -->
-<section id="call-to-action">
+<!-- <section id="call-to-action">
   <div class="container"  id="section-2">
     <div class="row">
       <div class="col-md-12">
@@ -137,8 +154,89 @@ ref: accueil
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- Content Start -->
+
+<!-- timeline start -->
+<section id="cd-timeline" class="cd-container">
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+              <img src="img/cd-icon-picture.svg" alt="Picture">
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+              <h2>Title of section 1</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+              <a href="#0" class="cd-read-more">Read more</a>
+              <span class="cd-date">Jan 14</span>
+            </div> <!-- cd-timeline-content -->
+          </div> <!-- cd-timeline-block -->
+
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-movie">
+              <img src="img/cd-icon-movie.svg" alt="Movie">
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+              <h2>Title of section 2</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+              <a href="#0" class="cd-read-more">Read more</a>
+              <span class="cd-date">Jan 18</span>
+            </div> <!-- cd-timeline-content -->
+          </div> <!-- cd-timeline-block -->
+
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+              <img src="img/cd-icon-picture.svg" alt="Picture">
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+              <h2>Title of section 3</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+              <a href="#0" class="cd-read-more">Read more</a>
+              <span class="cd-date">Jan 24</span>
+            </div> <!-- cd-timeline-content -->
+          </div> <!-- cd-timeline-block -->
+
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-location">
+              <img src="img/cd-icon-location.svg" alt="Location">
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+              <h2>Title of section 4</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+              <a href="#0" class="cd-read-more">Read more</a>
+              <span class="cd-date">Feb 14</span>
+            </div> <!-- cd-timeline-content -->
+          </div> <!-- cd-timeline-block -->
+
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-location">
+              <img src="img/cd-icon-location.svg" alt="Location">
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+              <h2>Title of section 5</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+              <a href="#0" class="cd-read-more">Read more</a>
+              <span class="cd-date">Feb 18</span>
+            </div> <!-- cd-timeline-content -->
+          </div> <!-- cd-timeline-block -->
+
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-movie">
+              <img src="img/cd-icon-movie.svg" alt="Movie">
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+              <h2>Final Section</h2>
+              <p>This is the content of the last section</p>
+              <span class="cd-date">Feb 26</span>
+            </div> <!-- cd-timeline-content -->
+          </div> <!-- cd-timeline-block -->
+        </section> <!-- cd-timeline -->
+
 <section id="testimonial">
   <div class="container">
     <div class="row">

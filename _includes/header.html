@@ -15,7 +15,7 @@
             <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.html">
-              <img src="{{ site.baseurl }}/img/logo.png" alt="Logo">
+              <img class="logoHeader" src="{{ site.baseurl }}/img/logoEtac/etacLogoClassic.png" alt="Logo">
             </a>
           </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -33,8 +33,8 @@
   </div>
 </header><!-- header close -->
 <div class="wrapper" style="text-align: right; line-height: 2em">
-  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-  {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
+  <!-- {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+  {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %} -->
 
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
   {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
