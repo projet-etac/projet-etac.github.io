@@ -383,8 +383,8 @@ px      68    160    252    */
   /*--
 	footer Start 
 --*/
-  footer .footer-manu {
-    display: none;
+  footer .footer-manu ul li{
+    display: block;
   }
 }
 /*		Wide Mobile Layout: 480px.

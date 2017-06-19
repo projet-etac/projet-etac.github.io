@@ -5,7 +5,7 @@ t:
       url: "/pages/index/"
     actus:
       name: "Actualités"
-      url: "/pages/actualites/"
+      url: "/pages/actualite/"
     enseignement:
       name: "Enseignement"
       url: "/pages/enseignement/"
@@ -22,7 +22,7 @@ t:
       url: "/pages/accueil-en/"
     actus:
       name: "News"
-      url: "/pages/actualites-en/"
+      url: "/pages/actualite-en/"
     enseignement:
       name: "Teaching"
       url: "/pages/enseignement-en/"
@@ -32,3 +32,8 @@ t:
     contact:
       name: "Contact"
       url: "/pages/contact-en/"
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb

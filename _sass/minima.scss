@@ -2,6 +2,22 @@
 
 // Define defaults for each variable.
 
+// e-TAC Classic Colors
+$first-font-color: #F7A94D !default;
+$blue-color: #2A3855 !default;
+$second-font-color:#15958C !default;
+$circle-color: #E73363 !default;
+$inter-font-color: #4B6C45 !default;
+
+$titre-color: $blue-color !default;
+
+h1,h2,h3,h4,h5{
+	color:$titre-color;
+}
+.whiteTitle{
+	color:#fff;
+}
+
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
@@ -12,13 +28,16 @@ $spacing-unit:     30px !default;
 
 $text-color:       #111 !default;
 $background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-pale: lighten($grey-color, 45%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
+//shadows
+
+$xs-shadow: 0 0 12px 0px $grey-color;
+$contour-blanc: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 
 // Width of the content area
 $content-width:    800px !default;
@@ -50,3 +69,5 @@ $on-laptop:        800px !default;
   "minima/syntax-highlighting",
   "custom"
 ;
+
+

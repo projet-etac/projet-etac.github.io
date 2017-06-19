@@ -26,6 +26,18 @@
     font-size: 5rem;
   }
 }
+
+//header
+
+header {
+  background: #fff;
+  position: fixed;
+  z-index:15;
+  width: 100%;
+  top:0;
+  min-height: $spacing-unit * 2.5;
+  border-bottom: 5px solid $first-font-color;
+} 
 $header: #fff !default;
 .site-header {
  border-top: 5px solid $grey-color-dark;
@@ -38,8 +50,65 @@ $header: #fff !default;
  position: fixed;
 }
 .logoHeader{
-  max-width: 150px;
+  max-width: 120px;
 }
+#bs-example-navbar-collapse-1{
+  margin-top: ($spacing-unit - $base-font-size) / 2;
+}
+#bs-example-navbar-collapse-1 > .navbar-right{
+  margin-right: $spacing-unit * 2;
+}
+
+//point de rupture 992px
+@media screen and (max-width:992px)
+{
+  #container-header{
+    width:100%;
+  }
+  header .navbar-default .navbar-nav li a{
+  padding:0 15px;
+}
+}
+
+//point de rupture 768px
+@media screen and (max-width:768px)
+{
+  .languages{
+    margin-top:-2 * $spacing-unit;
+    right:3 * $spacing-unit !important;
+  }
+} 
+
+.navbar-header{
+  margin: 5 px 0;
+}
+.languages{
+  position:absolute;
+  right:15px;
+}
+.point{
+    display: inline-block;
+    text-align:center;
+    width: 40px;
+    height: 40px;
+    margin-right:5px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    background-color: $circle-color;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+.point{
+  color:#fff;
+}
+
+.point:hover {
+    background-color: $blue-color;
+}
+
 .page-content{
   margin-top:$spacing-unit * 1.865;
 }
@@ -208,6 +277,9 @@ Modules - reusable parts of our design
 Main components
 
 -------------------------------- */
+.containerTimeline{
+  background:#e3f7f2;
+}
 
 #cd-timeline {
   position: relative;
@@ -223,7 +295,7 @@ Main components
   left: 18px;
   height: 100%;
   width: 4px;
-  background: #d7e4ed;
+  background: $first-font-color;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -270,7 +342,7 @@ Main components
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow:$contour-blanc;
 }
 .cd-timeline-img img {
   display: block;
@@ -282,15 +354,23 @@ Main components
   margin-left: -12px;
   margin-top: -12px;
 }
-.cd-timeline-img.cd-picture {
-  background: #75ce66;
+.cd-timeline-img i{
+  font-size: 32px;
+  text-align:center;
+  margin-top:25%;
+  margin-left:25%;
+  color:white;
 }
-.cd-timeline-img.cd-movie {
-  background: #c03b44;
+.cd-timeline-block:nth-child(1n) .cd-timeline-img{
+  background:$second-font-color;
 }
-.cd-timeline-img.cd-location {
-  background: #f0ca45;
+.cd-timeline-block:nth-child(2n) .cd-timeline-img{
+  background:$circle-color;
 }
+.cd-timeline-block:nth-child(3n) .cd-timeline-img{
+  background:$blue-color;
+}
+
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 60px;
@@ -372,22 +452,18 @@ Main components
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: white;
+ background-color: #fff;
   border-radius: 0.25em;
   padding: 1em;
-  box-shadow: 0 3px 0 #d7e4ed;
+  box-shadow:$contour-blanc;
 }
 .cd-timeline-content:after {
   content: "";
   display: table;
-  clear: both;
-}
-.cd-timeline-content h2 {
-  color: #303e49;
+  clear: both;  
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 13px;
-  font-size: 0.8125rem;
+  font-size: $base-font-size  ;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
@@ -409,37 +485,54 @@ Main components
 .cd-timeline-content .cd-date {
   float: left;
   padding: .8em 0;
-  opacity: .7;
 }
 .cd-timeline-content::before {
   content: '';
   position: absolute;
-  top: 16px;
+  margin-top: -12px;
   right: 100%;
   height: 0;
   width: 0;
-  border: 7px solid transparent;
-  border-right: 7px solid white;
+  border: 20px solid transparent;
+  border-right: 20px solid white;
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
     font-size: 20px;
-    font-size: 1.25rem;
   }
   .cd-timeline-content p {
-    font-size: 16px;
-    font-size: 1rem;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-    font-size: 14px;
-    font-size: 0.875rem;
+    font-size:$base-font-size;
   }
 }
 @media only screen and (min-width: 1170px) {
+  .cd-timeline-content .cd-date .year{
+  font-size:$base-font-size * 6;
+  color:white;
+  line-height: 0;
+  font-family:serif;
+  font-weight: bold;
+}
+.cd-timeline-content .cd-date .month{
+  font-size: $base-font-size *3 ;
+  position:relative;
+  margin-top: -$base-font-size *6.5;
+  font-family:'Baloo';
+}
+.cd-timeline-block:nth-child(1n) .cd-date .month{
+  color:$second-font-color;
+}
+.cd-timeline-block:nth-child(2n) .cd-date .month{
+  color:$circle-color;
+}
+.cd-timeline-block:nth-child(3n) .cd-date .month{
+  color:$blue-color;
+}
   .cd-timeline-content {
     margin-left: 0;
     padding: 1.6em;
-    width: 45%;
+    width: 44%;
   }
   .cd-timeline-content::before {
     top: 24px;
@@ -455,8 +548,7 @@ Main components
     width: 100%;
     left: 122%;
     top: 6px;
-    font-size: 16px;
-    font-size: 1rem;
+    font-size: $base-font-size;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
@@ -608,4 +700,114 @@ Main components
     -o-transform: translateX(0);
     transform: translateX(0);
   }
+}
+
+//footer 
+.container-logo-footer{
+  margin-top: 24px;
+  height:100px;
+}
+.logo-footer-img{
+  display: inline-block;
+  width: 33%;
+  height:100%;
+  max-height: 320px;
+}
+.logo-footer-img img{
+  max-height: 100%;
+}
+.mentions-legales{
+  margin-top:24px;
+}
+
+@media screen and (max-width: 1200px){
+    .container-logo-footer{
+    height:100px;
+  }
+}
+@media screen and (max-width: 870px){
+    .container-logo-footer{
+    height:70px;
+  }
+}
+@media screen and (max-width: 570px){
+    .container-logo-footer{
+    height:50px;
+  }
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: $blue-color;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: $circle-color;
+}
+
+
+.CTAButton{
+  border-radius:40px;
+  height:40px;
+  padding:$spacing-unit/4 $spacing-unit/2;
+  color:white;
+  background:$circle-color;
+  transition:.2s;
+  border:2px solid transparent;
+  margin-top:10px;
+}
+.CTAButton:hover{
+    color:$circle-color;
+    background:white;
+    border:2px solid $circle-color;
+}
+/* .CTAButton div{
+  border-radius:100%;
+  background:white;
+  height:36px;
+  width:36px;
+  display:inline-block;
+} */
+.CTAButton i{
+  margin-left:7px;
+}
+.cd-timeline-block:nth-child(1n) .CTAButton{
+  background:$second-font-color;
+}
+.cd-timeline-block:nth-child(2n) .CTAButton{
+  background:$circle-color;
+}
+.cd-timeline-block:nth-child(3n) .CTAButton{
+  background:$blue-color;
+}
+.cd-timeline-block:nth-child(1n) .CTAButton:hover{
+  border:2px solid $second-font-color;
+  color:$second-font-color;
+  background:white;
+}
+.cd-timeline-block:nth-child(2n) .CTAButton:hover{
+  border:2px solid $circle-color;
+  color:$circle-color;
+  background:white;
+}
+.cd-timeline-block:nth-child(3n) .CTAButton:hover{
+  border:2px solid $blue-color;
+  color:$blue-color;
+  background:white;
 }

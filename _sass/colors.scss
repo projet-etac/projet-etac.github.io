@@ -1,3 +1,4 @@
+/* @charset "utf-8";
 // e-TAC Classic Colors
 $first-font-color: #F7A94D !default;
 $blue-color: #2A3855 !default;
@@ -5,6 +6,14 @@ $second-font-color:#15958C !default;
 $circle-color: #E73363 !default;
 $inter-font-color: #4B6C45 !default;
 
+$titre-color: $blue-color !default;
+
+h1,h2,h3,h4,h5{
+	color:$titre-color;
+}
+
+$xs-shadow: 0 0 7px 0px $grey-color-pale;
+ */
 /*// e-TAC Green Colors
 $first-font-color: #C6D54F !default;
 $blue-color: #2A3855 !default;
@@ -19,7 +28,7 @@ $second-font-color:#3D4479 !default;
 $circle-color: #E73373 !default;
 $inter-font-color: #433F3B !default;*/
 
-//logo Etac
+/* //logo Etac */
 
 /*$logo-etac: ../img/logoEtac/etacLogoClassic.png;*/
 /*$logo-etac: url('../img/logoEtac/etacLogoBleu.png');
