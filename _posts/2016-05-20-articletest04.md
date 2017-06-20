@@ -4,8 +4,8 @@ layout: post
 title: Base Article
 lang : fr
 author: Francis Lala
-picture: img/slider_bg01.jpg
-categorie: categorie_01
+picture: img/slider_bg04.jpg
+categorie: categorie_02
 summary: test
 
 ---

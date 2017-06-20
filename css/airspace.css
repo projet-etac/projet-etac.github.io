@@ -636,35 +636,35 @@ font header .navbar-default .navbar-nav li a:hover {
   word-spacing: 3px;
 }
 /*--
-	contact-form Start
+	contactForm Start
 --*/
-#contact-form {
+#contactForm {
   padding-top: 70px;
   padding-bottom: 35px;
 }
-#contact-form .block form .form-group {
+#contactForm form .form-group {
   padding-bottom: 15px;
   margin: 0px;
 }
-#contact-form .block form .form-group .form-control {
+#contactForm form .form-group .form-control {
   background: #F6F8FA;
   height: 60px;
   border: 1px solid #EEF2F6;
   box-shadow: none;
   width: 100%;
 }
-#contact-form .block form .form-group-2 {
+#contactForm form .form-group-2 {
   padding-bottom: 15px;
   margin: 0px;
 }
-#contact-form .block form .form-group-2 textarea {
+#contactForm form .form-group-2 textarea {
   background: #F6F8FA;
   height: 135px;
   border: 1px solid #EEF2F6;
   box-shadow: none;
   width: 100%;
 }
-#contact-form .block button {
+#contactForm button {
   width: 100%;
   height: 60px;
   background: #47424C;

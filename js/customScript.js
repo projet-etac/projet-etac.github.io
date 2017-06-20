@@ -36,7 +36,7 @@ jQuery(document).ready(function($){
 	}
 });
 
-	hideScrollButton();
+/*	hideScrollButton();
 	function hideScrollButton(){
 		link = document.getElementById('scrollTopButton');
 		$(window).on('scroll', function(){
@@ -46,4 +46,4 @@ jQuery(document).ready(function($){
 			}
 
 		});
-	}
+	}*/
