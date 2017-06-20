@@ -35,3 +35,15 @@ jQuery(document).ready(function($){
 		});
 	}
 });
+
+	hideScrollButton();
+	function hideScrollButton(){
+		link = document.getElementById('scrollTopButton');
+		$(window).on('scroll', function(){
+			if($(body).scrollTop > $(window).height())
+			{
+				link.ClassList = 
+			}
+
+		});
+	}
