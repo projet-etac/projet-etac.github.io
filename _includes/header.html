@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 {% for menu in site.data.menu.t[page.lang] %}
-                  <li><a href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
+                  <li><a href="{{ site.baseurl }}{{ menu[1].url }}">{{ menu[1].name }}</a></li>
                 {% endfor %}
               </ul>
             </div><!-- /.navbar-collapse -->
