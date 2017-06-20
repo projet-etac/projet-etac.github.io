@@ -11,7 +11,7 @@ $inter-font-color: #4B6C45 !default;
 
 $titre-color: $blue-color !default;
 
-h1,h2,h3,h4,h5{
+h2,h3,h4,h5{
 	color:$titre-color;
 }
 .whiteTitle{
@@ -62,12 +62,18 @@ $on-laptop:        800px !default;
   font-size: $base-font-size * $ratio;
 }
 
+// couleurs éléments importants 
+
+$liens-menu-color: $blue-color !default;
+
+
 // Import partials.
 @import
   "minima/base",
   "minima/layout",
   "minima/syntax-highlighting",
-  "custom"
+  "custom",
+  "timeline"
 ;
 
 
