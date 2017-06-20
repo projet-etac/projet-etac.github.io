@@ -4,8 +4,9 @@ layout: post
 title: Base Article
 lang : fr
 author: Francis Lala
-picture: 
+picture:
 categorie:
+summary:
 
 ---
 

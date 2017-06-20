@@ -2,36 +2,36 @@ t:
   fr:
     accueil:
       name: "Accueil"
-      url: "index/"
+      url: "/index"
     actus:
       name: "Actualités"
-      url: "actualite/"
+      url: "/actualite"
     enseignement:
       name: "Enseignement"
-      url: "enseignement/"
+      url: "/enseignement"
     recherche:
       name: "Recherches"
-      url: "recherche/"
+      url: "/recherche"
     contact:
       name: "Contact"
-      url: "contact/"
+      url: "/contact"
 
   en:
     accueil:
       name: "Home"
-      url: "accueil-en/"
+      url: "/accueil-en"
     actus:
       name: "News"
-      url: "actualite-en/"
+      url: "/actualite-en"
     enseignement:
       name: "Teaching"
-      url: "enseignement-en/"
+      url: "/enseignement-en"
     recherche:
       name: "Research"
-      url: "recherche-en/"
+      url: "/recherche-en"
     contact:
       name: "Contact"
-      url: "contact-en/"
+      url: "/contact-en"
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
