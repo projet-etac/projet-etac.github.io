@@ -334,3 +334,18 @@ footer{
 #portfolio-work .block .portfolio-contant li:nth-child(3n) .overly{
   background:$circle-color !important;
 }
+
+#slider{
+  height:calc(60vh - 30px * 1.7);
+  padding:0;
+  margin-top:$spacing-unit * 1.7;
+}
+#slider .container{
+  padding-top:10vh;
+}
+.spacer1{
+  height:$spacing-unit;
+}
+.spacer2{
+  height:$spacing-unit * 2;
+}
