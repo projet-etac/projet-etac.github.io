@@ -56,7 +56,7 @@
         <div class="footer-manu">
           <ul>
               {% for menu in site.data.menu.t[page.lang] %}
-                <li><a href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
+                <li><a href="{{ site.baseurl }}{{ menu[1].url }}">{{ menu[1].name }}</a></li>
               {% endfor %}
           </ul>
         </div>
