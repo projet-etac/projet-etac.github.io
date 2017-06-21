@@ -22,7 +22,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                {% for menu in site.data.menu.t[page.lang] %}
+                {% for menu in site.data.[page.lang].menu %}
                   <li><a href="{{ site.baseurl }}{{ menu[1].url }}">{{ menu[1].name }}</a></li>
                 {% endfor %}
                 <li><a class="js-scrollTo" href="#contact">Contact</a></li>

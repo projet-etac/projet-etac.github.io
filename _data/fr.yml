@@ -1,0 +1,211 @@
+#Boutons d'appel à l'action 
+
+boutons:
+  classic-call-to-action : "Lire la suite"
+  twitter-button: "Suivre notre actualité"
+
+# Vos réseaux sociaux 
+
+social:
+  - title: "twitter"
+    url: "http://twitter.com/jekyllrb"
+
+# Les titres du menu en français
+
+menu:
+  accueil:
+    name: "Accueil"
+    url: "/index"
+  actus:
+    name: "Actualités"
+    url: "/actualite"
+  enseignement:
+    name: "Enseignants"
+    url: "/enseignement"
+  recherche:
+    name: "Chercheurs"
+    url: "/recherche"
+  calendar:
+    name: "Calendrier"
+    url: "/index#calendar"
+
+
+# # Présentation des auteurs
+
+# author:
+#   - name: "Francis lala"
+#     description: "Un parcours exemplaire au sein de l'académie nationnal des jeux de société qui l'a conduit à la direction du projet 'Triche entre copain'."
+#     profil: "..." 
+    
+# categorie:
+#   - name: "categorie_01"
+#   - name: "categorie_02"
+#   - name: "categorie_03"
+#   - name: "categorie_04"
+
+  # Vos contenus classés par page 
+
+pages:
+  accueil:
+    #section accueil
+    section-accueil:
+      titre: "e-TAC"
+      paragraphe1: "Un projet d'Investissement d'Avenir consacré aux Interfaces Tangibles Augmentées en milieu éducatif."
+      bouton1: "Je suis enseignant"
+      bouton2: "Je suis chercheur"
+    #section 1
+    section-1:
+      titre: "Le projet E-Tac"
+      paragraphe1: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime rhoncus und ullamcorper 
+                barapli Chulien lacus kuglopf condimentum sit Oberschaeffolsheim wie schpeck Pfourtz ! ch'ai 
+                sit suspendisse Morbi Chulia Roberstau leo merci vielmols schnaps hopla munster yeuh."
+      paragraphe2: "ch'ai sit suspendisse Morbi 
+               Chulia Roberstau leo merci vielmols schnaps hopla munster yeuh. rucksack Coopé de Truchtersheim 
+               tristique risus, Heineken Racing. sit vulputate Gal ! vielmols, senectus id wurscht Salu bissame 
+               Wurschtsalad Huguette flammekueche rossbolla geht's turpis, commodo sed Strasbourg morbi placerat 
+               Spätzle Verdammi DNA, Salut bisamme Gal. consectetur libero. knepfle dui jetz gehts los s'guelt dolor 
+               amet gravida ac leo Christkindelsmärik mamsell schneck turpis quam. quam, amet, varius Carola 
+               kartoffelsalad météor hopla ornare eget ftomi! sagittis libero, non mollis hopla lotto-owe kougelhopf "
+    #section 2
+    section-2:
+      titre: "Les ITA en deux mots"
+      paragraphe1: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime rhoncus und ullamcorper 
+                barapli Chulien lacus kuglopf condimentum sit Oberschaeffolsheim wie schpeck Pfourtz ! ch'ai 
+                sit suspendisse Morbi Chulia Roberstau leo merci vielmols schnaps hopla munster yeuh."
+    #calendrier
+    calendrier:
+      titre: "Calendrier"
+      container-1:
+        titre: "Mise en vente du produit"
+        paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+        annee: "2018"
+        mois: "octobre"
+        lien-bouton: "http://www.reyz-design.fr"
+      container-2:
+        titre: "Test du prototype auprès d'un groupe d'enseignants"
+        paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+        annee: "2018"
+        mois: "août"
+        lien-bouton: "http://www.reyz-design.fr"
+      container-3:
+        titre: "Création de la petite vis qui tient le boîtier"
+        paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+        annee: "2018"
+        mois: "janvier"
+        lien-bouton: "http://www.reyz-design.fr"
+      container-4:
+        titre: "Acheminement des emballages à bulles"
+        paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+        annee: "2017"
+        mois: "décembre"
+        lien-bouton: "http://www.reyz-design.fr"
+      container-5:
+        titre: "Réflexion sur l'écosystème de l'innovation"
+        paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+        annee: "2017"
+        mois: "septembre"
+        lien-bouton: "http://www.reyz-design.fr"
+      container-6:
+        titre: "Co-design avec des enfants"
+        paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+        annee: "2016"
+        mois: "janvier"
+        lien-bouton: "http://www.reyz-design.fr"
+    #fun fact
+    fun-fact:
+      titre: "Fun facts sur le projet"
+      paragraphe1: "Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+      nombres:
+        nombre1:
+          nbr: "1543"
+          info: "élèves concernés"
+        nombre2:
+          nbr: "153"
+          info: "chercheurs et enseignants"
+        nombre3:
+          nbr: "3000000"
+          info: "euros de budget"
+        nombre4:
+          nbr: "12745"
+          info: "tests"
+    #partenaires
+    partenaires:
+      title: "Nos partenaires"
+      #rajouter un logo partenaire : insérer image ( .png ou .jpg ) dans img/logoPartenaires et rajouter la ligne en respectant les modèles ci-dessous
+      
+      partenaire2:
+        nom: "Réseau Canopé"
+        logo: "canope.jpg"
+        url: ""
+      partenaire3:
+        nom: "Crem"
+        logo: "crem.jpg"
+        url: ""
+      
+      partenaire5:
+        nom: "ESPE Lorraine"
+        logo: "espe.jpg"
+        url: ""
+      partenaire6:
+        nom: "Inria"
+        logo: "inria.jpg"
+        url: ""
+      
+      partenaire8:
+        nom: "OpenEdge"
+        logo: "openedge.png"
+        url: ""
+      partenaire9:
+        nom: "Potioc"
+        logo: "potioc.png"
+        url: ""
+      partenaire10:
+        nom: "République Française"
+        logo: "repufr.png"
+        url: ""
+      partenaire11:
+        nom: "Université de Lorraine"
+        logo: "univ-lorraine.jpg"
+        url: ""
+    #formulaire contact
+    form:
+      title: "Une question ? Nous serons heureux de vous répondre !"
+      bouton: "Envoyer le message"
+
+# Les différents chercheurs / enseignants qui apparaitront sur le site 
+
+authors:
+  author1:
+    prenom: "Rémi"
+    nom: "Maringer"
+    post: "Free-lance - Reyz Design"
+    bio: "Le projet me tient à coeur, proposer une alternative à l'éducation 'classique' devient indispensable."
+    #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
+    photo-adulte: "testAdulte.jpg"
+    photo-enfant: "testEnfant.jpg"
+  author2:
+    prenom: "Pierre"
+    nom: "Kessler"
+    post: "Directeur - Reseau Canopé"
+    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf,"
+    #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
+    photo-adulte: "testAdulte.jpg"
+    photo-enfant: "testEnfant.jpg"

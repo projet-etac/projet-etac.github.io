@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block center">
-          <h2>Une question ? Nous serons heureux de vous répondre !</h2>
+          <h2>{{ site.data[page.lang].pages.accueil.form.titre }}</h2>
         </div>
       </div>  
            <form id="contact-form" action="//formspree.io/contact@bac-a-sable.fr" method="post">
@@ -15,10 +15,9 @@
                       <input type="text" name="Name" placeholder="Votre nom" class="form-control" required>
                     </div>
                     <div class="form-group">
-                      <input type="text" name="firstName" placeholder="Prénom" class="form-control" required>
+                      <input type="email" name="Email" placeholder="Adresse e-mail" class="form-control" required>
                     </div>
-
-                                          <!--   CONFIG -->
+                       <!--   CONFIG -->
                       <input class="is-hidden" type="hidden" name="_gotcha">
                       <input type="hidden" name="_subject" value="Subject">
                       <input type="hidden" name="_cc" value="contact@bac-a-sable.fr">
@@ -28,11 +27,8 @@
                 </div> 
                 <div class="col-md-6 col-sm-12">
                 <div class="block">
-                   <div class="form-group">
-                      <input type="email" name="Email" placeholder="Adresse e-mail" class="form-control" required>
-                    </div>
                     <div class="form-group">
-                       <textarea name="Message" cols="30" rows="6" placeholder="Message" class="form-control" required></textarea>
+                       <textarea name="Message" cols="30" rows="6" placeholder="Message" class="form-control message" required></textarea>
                     </div>
                     <div class="form-group">
                        <input type="hidden" name="_cc" value="contact@bac-a-sable.fr" class="form-control">
@@ -42,7 +38,7 @@
                 <div class="col-md-12">
                   <div class="block center">
                      <div class="submit CTAButton">
-                          <input  id="submitBtn" class="resetButton"type="submit" value="Envoyer le message"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                          <input  id="submitBtn" class="resetButton"type="submit" value="{{ site.data[page.lang].pages.accueil.form.bouton }}"><i class="fa fa-envelope-o" aria-hidden="true"></i>
                         </div>
                   </div>
                 </div>
@@ -50,31 +46,16 @@
       </div>
     </div>
 </section>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="footer-manu">
-          <ul>
-              {% for menu in site.data.menu.t[page.lang] %}
-                <li><a href="{{ site.baseurl }}{{ menu[1].url }}">{{ menu[1].name }}</a></li>
-              {% endfor %}
-          </ul>
-        </div>
-        </div>  
-        <div class="col-md-12">
-          <ul class="list-inline social-buttons">
-              {% for network in site.data.menu.social %}
-                  <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                  </li>
-              {% endfor %}
-          </ul>
-        </div>
-      </div>
-        <div class="col-md-12 mentions-legales">
-          <a href="{{ site.baseurl }}/mentions.html">Mentions légales</a>
-        </div>
-    </div>
-  </div>   
+<!--         <div class="footer-manu">
+  <ul>
+      {% for menu in site.data.data.t[page.lang] %}
+        <li><a href="{{ site.baseurl }}{{ menu[1].url }}">{{ menu[1].name }}</a></li>
+      {% endfor %}
+  </ul>
+</div> -->
+           <div class="twitterContainer block center">
+           <a href="pages/recherche" class="CTAButton reverse">{{ site.data[page.lang].boutons.twitter-button }}<i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </div> 
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -88,9 +69,18 @@
             <div class="logo-footer-img">
               <img src="{{ site.baseurl }}/img/logoEtac/etacLogoClassic.png" alt="logo e-tac">
             </div>
+            <div class="logo-footer-img">
+              <img src="{{ site.baseurl }}/img/logoPartenaires/efranlogo.jpg" alt="logo e-tac">
+            </div>
           </div>
         </div>
       </div>
+    </div>
+    <div class="container">
+        <div class="col-md-12 mentions-legales">
+         <p>Université de Lorraine - 34 cours Léopold CS 25233 54052 Nancy cedex - France</p> <a href="{{ site.baseurl }}/mentions.html">Mentions légales</a>
+        </div>
+    </div>
 </section>
 </footer>
 <a id="contact"></a>

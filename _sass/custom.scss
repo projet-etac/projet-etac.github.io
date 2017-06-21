@@ -177,9 +177,10 @@ h1, h2 {
 }
 .logo-footer-img{
   display: inline-block;
-  width: 33%;
+  width: 15%;
   height:100%;
   max-height: 320px;
+  padding-right:10px;
 }
 .logo-footer-img img{
   max-height: 100%;
@@ -244,6 +245,16 @@ ul.social-buttons li a:active {
     color:$circle-color;
     background:white;
     border:2px solid $circle-color;
+}
+.CTAButton.reverse{
+  color:$circle-color;
+  background:white;
+  border:2px solid $circle-color;
+}
+.CTAButton.reverse:hover{
+    color:white;
+    background:$circle-color;
+    border:2px solid transparent;
 }
 /* .CTAButton div{
   border-radius:100%;
@@ -385,4 +396,53 @@ footer{
 .bounceInUp {
   animation-name: bounceInUp;
   animation-duration:0.75s;
+}
+.minHeight{
+  min-height: 2* $spacing-unit;
+}
+.twitterContainer{
+  margin:$spacing-unit 0;
+}
+.calendarTitle h1{
+  font-size: $base-font-size * 2.5;
+  color:$circle-color;
+}
+
+#contactForm form .form-group .form-control{
+  height:$spacing-unit*2;
+}
+#contactForm form .form-group .form-control.message{
+  height:$spacing-unit*5;
+}
+#contactForm form .form-group{
+  padding-bottom:$spacing-unit;
+}
+
+.rond-icon{
+  box-shadow:0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
+  height: 60px;
+  width: 60px;
+  border-radius:100%;
+  margin:0 auto;
+  color:white;
+}
+.rond-icon i{
+    margin-top:25%;
+}
+.counter-box li:nth-child(1) .rond-icon{
+  background:$first-font-color;
+}
+.counter-box li:nth-child(2) .rond-icon{
+  background:$second-font-color;
+}
+.counter-box li:nth-child(3) .rond-icon{
+  background:$circle-color;
+}
+.counter-box li:nth-child(4) .rond-icon{
+  background:$blue-color;
+}
+
+#testimonial .testimonial-carousel .user img{
+  width: 100px;
+  height: 100px;
 }

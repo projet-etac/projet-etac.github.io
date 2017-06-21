@@ -1,0 +1,18 @@
+# Les titres du menu
+
+menu:
+    accueil:
+      name: "Home"
+      url: "/accueil-en"
+    actus:
+      name: "News"
+      url: "/actualite-en"
+    enseignement:
+      name: "Teachers"
+      url: "/enseignement-en"
+    recherche:
+      name: "Researchers"
+      url: "/recherche-en"
+    calendar:
+      name: "Calendar"
+      url: "/index#calendar"
