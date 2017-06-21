@@ -270,10 +270,10 @@ header .navbar-default .navbar-nav li a{
 }
 
 .point.is-hidden{
-  visibility:hidden;
+  opacity:0;
 }
 .point.is-visible{
-  visibility:visible;
+  opacity:1;
 }
 #portfolio-work{
   padding:0 0 80px 0;
@@ -348,4 +348,41 @@ footer{
 }
 .spacer2{
   height:$spacing-unit * 2;
+}
+.navbar-brand{
+  z-index: 10;
+  cursor:pointer;
+}
+
+@keyframes bounceInUp {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  from {
+    opacity: 0;
+    transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.bounceInUp {
+  animation-name: bounceInUp;
+  animation-duration:0.75s;
 }

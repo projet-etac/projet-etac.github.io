@@ -36,14 +36,25 @@ jQuery(document).ready(function($){
 	}
 });
 
-/*	hideScrollButton();
+	hideScrollButton();
 	function hideScrollButton(){
-		link = document.getElementById('scrollTopButton');
+		link = document.getElementById('scrollTopButton').classList;
 		$(window).on('scroll', function(){
-			if($(body).scrollTop > $(window).height())
+			console.log($(document).scrollTop());
+			console.log($(window).height());
+			if($(document).scrollTop() > $(window).height())
 			{
-				link.ClassList = 
+				if(link.contains("is-hidden"))
+				{
+					link.remove( "is-hidden" );
+				}
+			}
+			else{
+				if(!link.contains("is-hidden"))
+				{
+					link.add('is-hidden');
+				}
 			}
 
 		});
-	}*/
+	}
