@@ -5,7 +5,7 @@ title: You must click
 lang : en
 author: Francis Lala
 picture: img/slider_bg02.jpg
-categorie: categorie_03
+categorie: Catégorie 3
 summary: Il étais une fois la vie
 
 ---

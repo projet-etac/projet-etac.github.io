@@ -5,7 +5,7 @@ title: Base Article
 lang : fr
 author: Francis Lala
 picture: img/slider_bg04.jpg
-categorie: categorie_02
+categorie: Catégorie 2
 summary: test
 
 ---

@@ -4,10 +4,9 @@ boutons:
   classic-call-to-action : "Lire la suite"
   twitter-button: "Suivre notre actualité"
 
-# Vos réseaux sociaux 
-
+# Vos réseaux sociaux sont disponnible dans le fichier config.yml
 social:
-  - title: "twitter"
+  twitter:
     url: "http://twitter.com/jekyllrb"
 
 # Les titres du menu en français
@@ -188,6 +187,11 @@ pages:
     form:
       title: "Une question ? Nous serons heureux de vous répondre !"
       bouton: "Envoyer le message"
+  #page actualités
+  actus:
+    #Première section sur laquelle se trouve l'image de fond
+    section-1:
+      title: "Nos dernières actulités"
 
 # Les différents chercheurs / enseignants qui apparaitront sur le site 
 
@@ -209,3 +213,34 @@ authors:
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
     photo-adulte: "testAdulte.jpg"
     photo-enfant: "testEnfant.jpg"
+
+#Catégories des différents posts pour la rubrique enseignants et chercheurs 
+# La référence ( ref ) de la catégorie ne doit pas contenir de caractères particulier : accents, espaces, tirets,...
+
+categories-posts:
+  enseignants: 
+    cat1:
+      nom: "Catégorie 1"
+      ref: "cat1"
+    cat2:
+      nom: "Catégorie 2"
+      ref: "cat2"
+    cat3: 
+      nom: "Catégorie 3"
+      ref: "cat3"
+    cat4: 
+      nom: "Catégorie 4"
+      ref: "cat4"
+  chercheurs: 
+    cat1:
+      nom: "Catégorie 1"
+      ref: "cat1"
+    cat2:
+      nom: "Catégorie 2"
+      ref: "cat2"
+    cat3: 
+      nom: "Catégorie 3"
+      ref: "cat3"
+    cat4: 
+      nom: "Catégorie 4"
+      ref: "cat4"

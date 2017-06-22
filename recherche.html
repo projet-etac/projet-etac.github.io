@@ -3,7 +3,7 @@ layout: page
 title: E-tac | Recherches
 lang: fr
 ref: recherche
-
+focus: Chercheurs
 ---
 
 <section id="global-header">
@@ -48,8 +48,8 @@ ref: recherche
               <div class="portfolio-menu">
                 <ul>
                    <li class="filter" data-filter="all">Tous</li>
-                   {% for categorie in site.data.menu.categorie %}
-                      <li class="filter" data-filter=".{{ categorie.name }}">{{ categorie.name }}</li>
+                   {% for categorie in site.data.fr.categories-posts.chercheurs %}
+                      <li class="filter" data-filter=".{{ categorie[1].ref }}">{{ categorie[1].nom }}</li>
                    {% endfor %}
                 </ul>
               </div>

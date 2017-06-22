@@ -4,12 +4,18 @@ layout: page
 
 <div class="post">
   <!-- Wrapper Start -->
-  <section id="intro" style="border: 1px dotted #ddd;">
+  <section class="postContainer" style="border: 1px dotted #ddd;">
     <div class="container">
       <div class="row">
         <div>
+        <div class="block">
+        <h1>{{ page.title }}</h1>
+          <div class="imgPostContainer">
+             <img src="{{ site.baseurl }}/{{ page.picture }}" alt="">
+          </div>
+        </div>
           <div class="block">
-            <h1>{{ page.title }}</h1>
+            
             <div class="post-info-wrapper">
               <p class="italic">By <span class="bold">{{ page.author }}</span> on <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span></p>
             </div>
@@ -21,6 +27,6 @@ layout: page
     </div>
   </section>
 </div>
-<p class="center-text" style="padding: 30px;">
+<!-- <p class="center-text" style="padding: 30px;">
   <a href="{{ site.baseurl }}/blog">Back to blog</a>
-</p>
+</p> -->

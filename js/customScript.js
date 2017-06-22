@@ -40,8 +40,6 @@ jQuery(document).ready(function($){
 	function hideScrollButton(){
 		link = document.getElementById('scrollTopButton').classList;
 		$(window).on('scroll', function(){
-			console.log($(document).scrollTop());
-			console.log($(window).height());
 			if($(document).scrollTop() > $(window).height())
 			{
 				if(link.contains("is-hidden"))

@@ -446,3 +446,41 @@ footer{
   width: 100px;
   height: 100px;
 }
+
+@media screen and (max-width: 768px)
+{
+  #slider .CTAButton{
+    display:none;
+}
+#intro{
+    padding:40px 0;
+  }
+}
+
+@media screen and (max-width: 480px)
+{
+  #slider{
+    height:calc(70vh - 10px * 1.7)
+  }
+  #slider .block h1{
+    font-size: 7rem;
+  }
+  #slider .block p{
+    line-height: 2.5rem;
+  }
+  #intro{
+    padding:10px 0;
+  }
+}
+
+.focusHeader{
+  color:$circle-color !important;
+}
+
+//Article 
+
+
+.postContainer{
+  padding: 2* $spacing-unit 10px;
+  margin:0 auto;
+}

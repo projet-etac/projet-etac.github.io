@@ -1,8 +1,9 @@
 ---
 layout: page
-title: E-tac accueil
+title: E-tac | Accueil
 lang: fr
 ref: accueil
+focus: Accueil
 
 ---
 <!-- Detect language of the browser -->
@@ -247,3 +248,19 @@ var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
 
 <!-- timeline script  -->
 <script src="{{ site.baseurl }}/js/customScript.js"></script> 
+<!-- <script src="{{ site.baseurl }}/js/inview.min.js.js"></script>
+<script> 
+$('#calendar').on('inview', function(event, isInView) {
+  if (isInView) {
+    // element is now visible in the viewport
+    {% if page.lang == fr %}
+      $("#id-Accueil").classList.remove('focusHeader');
+      $("#id-Contact").classList.remove('focusHeader');
+      $("#id-Calendrier").classList.add('focusHeader');
+    {% endif %}
+  } else {
+    // element has gone out of viewport
+  }
+});
+
+</script> -->
