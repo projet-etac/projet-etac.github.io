@@ -482,5 +482,49 @@ footer{
 
 .postContainer{
   padding: 2* $spacing-unit 10px;
-  margin:0 auto;
+}
+.nextPrev{
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+.nextPrevImg{
+  height:200px;
+  overflow:hidden;
+  text-align: center;
+}
+.nextPrevImg img{
+ position:static;
+ max-width:500%;
+ height:100%;
+}
+.npC{
+  padding:0;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+.centerI{
+  width:100%;
+  text-align: center;
+  position:relative;
+  margin-top:-140px;
+  color:white;
+  transition:0.2s;
+}
+.centerI:hover{
+  color:$circle-color;
+}
+.centerI i{
+  font-size: 80px;
+  text-shadow:2px 2px 4px #000000;;
+}
+.npC > p{
+  text-align: center;
+}
+@media screen and (min-width: 768px)
+{
+  .postContainer{
+    max-width: 800px;
+}
 }

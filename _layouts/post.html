@@ -4,9 +4,8 @@ layout: page
 
 <div class="post">
   <!-- Wrapper Start -->
-  <section class="postContainer" style="border: 1px dotted #ddd;">
-    <div class="container">
-      <div class="row">
+<!--   <div class="postContainer" style="border: 1px dotted #ddd;"> -->
+    <div class="container postContainer">
         <div>
         <div class="block">
         <h1>{{ page.title }}</h1>
@@ -17,15 +16,46 @@ layout: page
           <div class="block">
             
             <div class="post-info-wrapper">
-              <p class="italic">By <span class="bold">{{ page.author }}</span> on <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span></p>
+              <p class="italic">Article rédigé par <span class="bold">{{ page.author }}</span> le <span class="bold">{{ page.date | date: "%d %B, %Y" }}</span></p>
+              <p>Catégorie : {{ page.categorie }}</p>
             </div>
             <hr />
             <p>{{ content }}</p>
           </div>
         </div><!-- .col-md-7 close -->
-      </div>
     </div>
+     <section>
+    <div class="container nextPrev">
+      {% if page.previous or page.next %}
+          <div class="npC">
+            {% if page.previous %}
+            <p>{{ page.previous.title }}</p>
+              <div class="nextPrevImg">
+                <a href="{{ page.previous.url | absolute_url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}"><img src="{{ site.baseurl }}/{{ page.previous.picture }}" alt=""><div class="centerI"><i class="fa fa-arrow-left" aria-hidden="true"></i></div></a>
+              </div>
+            {% else %}
+              <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+            {% endif %}
+          </div>
+          <div class="npC">
+          {% if page.next %}
+          <p>{{ page.previous.title }}</p>
+            <div class="nextPrevImg">
+              <a href="{{ page.next.url | absolute_url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}">
+                <img src="{{ site.baseurl }}/{{ page.next.picture }}" alt="">
+                <div class="centerI"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+               </a>
+            </div>
+            {% else %}
+              <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+            {% endif %}
+            </div>
+          {% endif %}
+        </div>
+
+      
   </section>
+<!--      </div> -->
 </div>
 <!-- <p class="center-text" style="padding: 30px;">
   <a href="{{ site.baseurl }}/blog">Back to blog</a>
