@@ -192,18 +192,33 @@ pages:
     #Première section sur laquelle se trouve l'image de fond
     section-1:
       title: "Nos dernières actulités"
+  
+  #page chercheurs 
 
+  recherche:
+    section-1:
+      title: "La recherche au service de l'éducation"
+    section-2:
+      title1: "Des chercheurs, des expériences"
+      paragraphe1: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"  
+      title2: "Découvrez un nouveau moyen d'apréhender les données."
+      paragraphe2: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
 # Les différents chercheurs / enseignants qui apparaitront sur le site 
 
 authors:
   author1:
-    prenom: "Rémi"
-    nom: "Maringer"
-    post: "Free-lance - Reyz Design"
-    bio: "Le projet me tient à coeur, proposer une alternative à l'éducation 'classique' devient indispensable."
+    prenom: "Stéphanie"
+    nom: "Fleck"
+    post: "Maître de conférence"
+    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf,"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
-    photo-adulte: "testAdulte.jpg"
-    photo-enfant: "testEnfant.jpg"
+    photo-adulte: "chercheur2.png"
+    photo-enfant: "chercheur2.png"
   author2:
     prenom: "Pierre"
     nom: "Kessler"
@@ -211,8 +226,8 @@ authors:
     bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
                 auctor, Oberschaeffolsheim id, libero, blottkopf,"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
-    photo-adulte: "testAdulte.jpg"
-    photo-enfant: "testEnfant.jpg"
+    photo-adulte: "chercheur1.png"
+    photo-enfant: "chercheur1.png"
 
 #Catégories des différents posts pour la rubrique enseignants et chercheurs 
 # La référence ( ref ) de la catégorie ne doit pas contenir de caractères particulier : accents, espaces, tirets,...

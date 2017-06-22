@@ -25,6 +25,9 @@
   #slider .block h1{
     font-size: 5rem;
   }
+  header .navbar-default .navbar-nav li a{
+  padding:15px 0 !important;
+}
 }
 
 //header
@@ -67,6 +70,9 @@ $header: #fff !default;
   }
   header .navbar-default .navbar-nav li a{
   padding:0 15px;
+}
+.spacer{
+  height:1.8*$spacing-unit;
 }
 }
 
@@ -198,6 +204,7 @@ h1, h2 {
     .container-logo-footer{
     height:70px;
   }
+
 }
 @media screen and (max-width: 570px){
     .container-logo-footer{
@@ -527,4 +534,26 @@ footer{
   .postContainer{
     max-width: 800px;
 }
+#global-header{
+  height: 40vh !important;
+}
+}
+
+#global-header{
+  padding: 0;
+  margin-bottom: 20px;
+  height:60vh;
+  display:flex; 
+}
+#global-header .container{
+     margin:auto;
+}
+#global-header h1{
+  color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.spacer{
+  height:1.7*$spacing-unit;
 }
