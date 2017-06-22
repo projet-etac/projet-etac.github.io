@@ -4,6 +4,7 @@ title: E-tac | Home
 lang: en
 ref: accueil
 focus: Home
+
 ---
 <!-- Detect language of the browser -->
 <script type="text/javascript">
@@ -15,7 +16,7 @@ var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
 
   }
     else{
-      document.location.href="{{ site.baseurl }}/accueil-en.html";
+      document.location.href="/pages/accueil-en.html";
     }
 
 </script>
@@ -26,21 +27,19 @@ var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
     <div class="row">
       <div class="col-md-10 col-md-offset-2">
         <div class="block">
-          <h1 class="whiteTitle animated fadeInUp">e-TAC</h1>
-          <p class="animated fadeInUp">A Project of Investment of Future dedicated to the Tangible Interfaces Increased in educational environment.</p>
+          <h1 class="whiteTitle animated fadeInUp">{{ site.data[page.lang].pages.accueil.section-accueil.titre }}</h1>
+          <p class="animated fadeInUp">{{ site.data[page.lang].pages.accueil.section-accueil.paragraphe1 }}</p>
                 <div class="spacer2"></div>
         </div>
       </div>
-  </div>
-</section>
-<section>
-  <div class="col-md-6 col-sm-12 center">
-        <a href="enseignants.html" class="CTAButton">For teachers<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+      <div class="col-md-6 col-sm-12 center minHeight">
+        <a href="{{ site.baseurl }}/enseignement" class="CTAButton">{{ site.data[page.lang].pages.accueil.section-accueil.bouton1 }}<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
       </div>
-      <div class="col-md-6 col-sm-12 center">
-       <a href="pages/recherche" class="CTAButton">For researchers<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+      <div class="col-md-6 col-sm-12 center minHeight">
+       <a href="{{ site.baseurl }}/recherche" class="CTAButton">{{ site.data[page.lang].pages.accueil.section-accueil.bouton2 }}<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
       </div>
     </div>
+  </div>
 </section>
 <!-- Wrapper Start -->
 <section id="intro">  
@@ -49,10 +48,10 @@ var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
       <div class="col-md-7 col-sm-12">
         <div class="block">
           <div class="section-title">
-            <h2>Le projet E-Tac</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+            <h2>{{ site.data[page.lang].pages.accueil.section-1.titre }}</h2>
+            <p>{{ site.data[page.lang].pages.accueil.section-1.paragraphe1 }}</p>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id </p>
+          <p>{{ site.data[page.lang].pages.accueil.section-1.paragraphe2 }}</p>
         </div>
           
       </div><!-- .col-md-7 close -->
@@ -69,10 +68,8 @@ var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
 <div class="container">
   <div class="row">
     <div class="col-md-6 col-md-offset-6">
-      <h2>Les ITA en deux mots </h2>
-      <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+      <h2>{{ site.data[page.lang].pages.accueil.section-2.titre }}</h2>
+      <p>{{ site.data[page.lang].pages.accueil.section-2.paragraphe }}</p>
     </div>
   </div>
 </div>
@@ -80,18 +77,20 @@ var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
 
 
 <!-- timeline start -->
+<a id=calendar href=""></a>
 <div class="containerTimeline">
+<div class="spacer1"></div>
+<div class="center calendarTitle"><h1>{{ site.data[page.lang].pages.accueil.calendrier.titre }}</h1></div>
   <section id="cd-timeline" class="cd-container">
           <div class="cd-timeline-block">
             <div class="cd-timeline-img cd-picture">
                 <i class="fa fa-wrench" aria-hidden="true"></i>
             </div> <!-- cd-timeline-img -->
-
             <div class="cd-timeline-content">
-              <h2>Mise en vente du premier produit</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-              <a href="#0" class="CTAButton">Lire la suite<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-              <span class="cd-date"><p class="year">2018</p><p class="month">Octobre</p></span>
+              <h2>{{ site.data[page.lang].pages.accueil.calendrier.container-1.titre }}</h2>
+              <p>{{ site.data[page.lang].pages.accueil.calendrier.container-1.paragraphe }}</p>
+               <a href="{{ site.data[page.lang].pages.accueil.calendrier.container-1.lien-bouton }}" class="CTAButton">{{ site.data[page.lang].boutons.classic-call-to-action }}<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              <span class="cd-date"><p class="year">{{ site.data[page.lang].pages.accueil.calendrier.container-1.annee }}</p><p class="month">{{ site.data[page.lang].pages.accueil.calendrier.container-1.mois }}</p></span>
             </div> <!-- cd-timeline-content -->
           </div> <!-- cd-timeline-block -->
 
@@ -101,10 +100,9 @@ var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
             </div> <!-- cd-timeline-img -->
 
             <div class="cd-timeline-content">
-              <h2>Test du prototype auprès d'un groupe d'enseignants</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-               <a href="#0" class="CTAButton">Lire la suite<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-              <span class="cd-date"><p class="year">2018</p><p class="month">Août</p></span>
+              <h2>{{ site.data[page.lang].pages.accueil.calendrier.container-2.titre }}</h2>
+              <p>{{ site.data[page.lang].pages.accueil.calendrier.container-2.paragraphe }}</p>
+              <span class="cd-date"><p class="year">{{ site.data[page.lang].pages.accueil.calendrier.container-2.annee }}</p><p class="month">{{ site.data[page.lang].pages.accueil.calendrier.container-2.mois }}</p></span>
             </div> <!-- cd-timeline-content -->
           </div> <!-- cd-timeline-block -->
 
@@ -114,10 +112,10 @@ var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
             </div> <!-- cd-timeline-img -->
 
             <div class="cd-timeline-content">
-              <h2>Création de la petite vis qui tient le boîtier</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
-              <a href="#0" class="CTAButton">Lire la suite</a>
-              <span class="cd-date"><p class="year">2018</p><p class="month">Janvier</p></span>
+              <h2>{{ site.data[page.lang].pages.accueil.calendrier.container-3.titre }}</h2>
+              <p>{{ site.data[page.lang].pages.accueil.calendrier.container-3.paragraphe }}</p>
+               <a href="{{ site.data[page.lang].pages.accueil.calendrier.container-3.lien-bouton }}" class="CTAButton">{{ site.data[page.lang].boutons.classic-call-to-action }}<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              <span class="cd-date"><p class="year">{{ site.data[page.lang].pages.accueil.calendrier.container-3.annee }}</p><p class="month">{{ site.data[page.lang].pages.accueil.calendrier.container-3.mois }}</p></span>
             </div> <!-- cd-timeline-content -->
           </div> <!-- cd-timeline-block -->
 
@@ -127,10 +125,10 @@ var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
             </div> <!-- cd-timeline-img -->
 
             <div class="cd-timeline-content">
-              <h2>Acheminement des emballages à bulles</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-               <a href="#0" class="CTAButton">Lire la suite<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-              <span class="cd-date"><p class="year">2017</p><p class="month">Décembre</p></span>
+              <h2>{{ site.data[page.lang].pages.accueil.calendrier.container-4.titre }}</h2>
+              <p>{{ site.data[page.lang].pages.accueil.calendrier.container-4.paragraphe }}</p>
+               <a href="{{ site.data[page.lang].pages.accueil.calendrier.container-4.lien-bouton }}" class="CTAButton">{{ site.data[page.lang].boutons.classic-call-to-action }}<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              <span class="cd-date"><p class="year">{{ site.data[page.lang].pages.accueil.calendrier.container-4.annee }}</p><p class="month">{{ site.data[page.lang].pages.accueil.calendrier.container-4.mois }}</p></span>
             </div> <!-- cd-timeline-content -->
           </div> <!-- cd-timeline-block -->
 
@@ -140,22 +138,21 @@ var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
             </div> <!-- cd-timeline-img -->
 
             <div class="cd-timeline-content">
-              <h2>Réflexion sur le pourquoi du comment</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
-              <a href="#0" class="CTAButton">Lire la suite<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-              <span class="cd-date"><p class="year">2017</p><p class="month">Septembre</p></span>
+              <h2>{{ site.data[page.lang].pages.accueil.calendrier.container-5.titre }}</h2>
+              <p>{{ site.data[page.lang].pages.accueil.calendrier.container-5.paragraphe }}</p>
+              <span class="cd-date"><p class="year">{{ site.data[page.lang].pages.accueil.calendrier.container-5.annee }}</p><p class="month">{{ site.data[page.lang].pages.accueil.calendrier.container-5.mois }}</p></span>
             </div> <!-- cd-timeline-content -->
           </div> <!-- cd-timeline-block -->
-
           <div class="cd-timeline-block">
             <div class="cd-timeline-img cd-movie">
                 <i class="fa fa-cube" aria-hidden="true"></i>
             </div> <!-- cd-timeline-img -->
 
             <div class="cd-timeline-content">
-              <h2>Co-design avec des enfants</h2>
-              <p>This is the content of the last section</p>
-              <span class="cd-date"><p class="year">2016</p><p class="month">Janvier</p></span>
+              <h2>{{ site.data[page.lang].pages.accueil.calendrier.container-6.titre }}</h2>
+              <p>{{ site.data[page.lang].pages.accueil.calendrier.container-6.paragraphe }}</p>
+               <a href="{{ site.data[page.lang].pages.accueil.calendrier.container-6.lien-bouton }}" class="CTAButton">{{ site.data[page.lang].boutons.classic-call-to-action }}<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              <span class="cd-date"><p class="year">{{ site.data[page.lang].pages.accueil.calendrier.container-6.annee }}</p><p class="month">{{ site.data[page.lang].pages.accueil.calendrier.container-6.mois }}</p></span>
             </div> <!-- cd-timeline-content -->
           </div> <!-- cd-timeline-block -->
         </section> <!-- cd-timeline -->
@@ -164,8 +161,8 @@ var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
   <div class="container">
     <div class="row">
       <div class="section-title text-center">
-        <h2>Fun Facts sur le projet</h2>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+        <h2>{{ site.data[page.lang].pages.accueil.fun-fact.titre }}</h2>
+        <p>{{ site.data[page.lang].pages.accueil.fun-fact.paragraphe1 }}</p>
       </div>
     </div>
     <div class="row">
@@ -174,30 +171,30 @@ var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
           <ul class="counter-box clearfix">
             <li>
               <div class="block">
-                <i class="ion-ios-chatboxes-outline"></i>
-                <h4 class="counter">20000</h4>
-                <span>Cups Of Coffee</span>
+                <div class="rond-icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+                <h4 class="counter">{{ site.data[page.lang].pages.accueil.fun-fact.nombres.nombre1.nbr }}</h4>
+                <span>{{ site.data[page.lang].pages.accueil.fun-fact.nombres.nombre1.info }}</span>
               </div>
             </li>
             <li>
               <div class="block">
-                <i class="ion-ios-glasses-outline"></i>
-                <h4 class="counter">20000</h4>
-                <span>Cups Of Coffee</span>
+                <div class="rond-icon"><i class="fa fa-user" aria-hidden="true"></i></div>
+                <h4 class="counter">{{ site.data[page.lang].pages.accueil.fun-fact.nombres.nombre2.nbr }}</h4>
+                <span>{{ site.data[page.lang].pages.accueil.fun-fact.nombres.nombre2.info }}</span>
               </div>
             </li>
             <li>
               <div class="block">
-                <i class="ion-ios-compose-outline"></i>
-                <h4 class="counter">20000</h4>
-                <span>Cups Of Coffee</span>
+                <div class="rond-icon"><i class="fa fa-eur" aria-hidden="true"></i></div>
+                <h4 class="counter">{{ site.data[page.lang].pages.accueil.fun-fact.nombres.nombre3.nbr }}</h4>
+                <span>{{ site.data[page.lang].pages.accueil.fun-fact.nombres.nombre3.info }}</span>
               </div>
             </li>
             <li>
               <div class="block">
-                <i class="ion-ios-timer-outline"></i>
-                <h4 class="counter">20000</h4>
-                <span>Cups Of Coffee</span>
+                <div class="rond-icon"><i class="fa fa-coffee" aria-hidden="true"></i></div>
+                <h4 class="counter">{{ site.data[page.lang].pages.accueil.fun-fact.nombres.nombre4.nbr }}</h4>
+                <span>{{ site.data[page.lang].pages.accueil.fun-fact.nombres.nombre4.info }}</span>
               </div>
             </li>
 
@@ -207,38 +204,18 @@ var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
       <div class="col-md-6">
         <div class="testimonial-carousel">
           <div id="testimonial-slider" class="owl-carousel">
-            <div>
-                  <img src="img/cotation.png" alt="IMG">
-                  <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
-                  <div class="user">
-                    <img src="img/item-img1.jpg" alt="Pepole">
-                    <p><span>Rose Ray</span> CEO-Themefisher</p>
+            
+              {% for author in site.data[page.lang].authors %}
+                  <div>
+                    <p>
+                      {{author[1].bio}}
+                    </p>
+                    <div class="user">
+                      <img src="{{ site.baseurl }}/img/photoChercheur/{{ author[1].photo-adulte }}" alt="">
+                      <p><span>{{ author[1].prenom }} {{ author[1].nom }}</span> {{ author[1].post }}</p>
+                    </div>
                   </div>
-            </div>
-            <div>
-              <img src="img/cotation.png" alt="IMG">
-                <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
-                <div class="user">
-                  <img src="img/item-img1.jpg" alt="Pepole">
-                  <p><span>Rose Ray</span> CEO-Themefisher</p>
-                </div>
-            </div>
-            <div>
-              <img src="img/cotation.png" alt="IMG">
-                <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
-                <div class="user">
-                  <img src="img/item-img1.jpg" alt="Pepole">
-                  <p><span>Rose Ray</span> CEO-Themefisher</p>
-                </div>
-            </div>
-            <div>
-              <img src="img/cotation.png" alt="IMG">
-                <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
-                <div class="user">
-                  <img src="img/item-img1.jpg" alt="Pepole">
-                  <p><span>Rose Ray</span> CEO-Themefisher</p>
-                </div>
-            </div>
+              {% endfor %}
           </div>
         </div>
       </div>
@@ -246,6 +223,28 @@ var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
   </div>
 </section>
 
+<!-- Clients Logo Section Start -->
+<div class="center calendarTitle"><h1>Nos partenaires</h1></div>
+<section id="clients-logo-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div id="clients-logo" class="owl-carousel">
+          {% for partenaire in site.data[page.lang].pages.accueil.partenaires %}
+            {% if partenaire[1].logo == "" or partenaire[1].logo == nil %}
+              {% else %}
+              <div class="clients-logo-img">
+                <img src="{{ site.baseurl }}/img/logoPartenaires/{{partenaire[1].logo}}" alt="Logo {{ partenaire[1].nom }}">
+              </div>
+            {% endif %}
+          {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- timeline script  -->
 <script src="{{ site.baseurl }}/js/customScript.js"></script> 

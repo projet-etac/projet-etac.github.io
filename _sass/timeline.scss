@@ -343,7 +343,6 @@
   display:block;
   font-size:$base-font-size * 6;
   color:white;
-  line-height: 0;
   font-family:serif;
   font-weight: bold;
 }
@@ -351,7 +350,7 @@
   display: block;
   font-size: $base-font-size *3 ;
   position:relative;
-  margin-top: -$base-font-size *6.5;
+  margin-top: -$base-font-size *6;
   font-family:'Baloo';
 }
 .cd-timeline-block:nth-child(1n) .cd-date .month{

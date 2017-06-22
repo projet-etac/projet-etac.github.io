@@ -499,6 +499,7 @@ footer{
   height:200px;
   overflow:hidden;
   text-align: center;
+  margin-bottom:5%;
 }
 .nextPrevImg img{
  position:static;
@@ -557,3 +558,33 @@ footer{
 .spacer{
   height:1.7*$spacing-unit;
 }
+#portfolio-work .block .portfolio-contant ul li a p{
+  line-height: $base-font-size*1.2;
+}
+.postContainer .block h1{
+  text-align: center;
+}
+.infosMobile{
+  padding:15px;
+}
+#portfolio-work .block .portfolio-contant li:nth-child(n) .infosMobile{
+  background:$first-font-color !important;
+}
+#portfolio-work .block .portfolio-contant li:nth-child(2n) .infosMobile{
+  background:$second-font-color !important;
+}
+#portfolio-work .block .portfolio-contant li:nth-child(3n) .infosMobile{
+  background:$circle-color !important;
+}
+#portfolio-contant-active{
+  display:flex;
+  flex-flow: row wrap;
+}
+
+/* @media screen and (min-width: 760px)
+{
+  #portfolio-work .block .portfolio-contant ul li{
+  width:calc(33.33% - 24px);
+  }
+}
+ */
