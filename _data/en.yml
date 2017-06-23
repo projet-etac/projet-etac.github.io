@@ -9,19 +9,19 @@ boutons:
 menu:
   accueil:
     name: "Home"
-    url: "/index"
+    url: "/accueil-en"
   actus:
     name: "News"
-    url: "/actualite"
+    url: "/actualite-en"
   enseignement:
     name: "Teachers"
-    url: "/enseignement"
+    url: "/enseignement-en"
   recherche:
     name: "Researchers"
-    url: "/recherche"
+    url: "/recherche-en"
   calendar:
     name: "Calendar"
-    url: "/index#calendar"
+    url: "/accueil-en#calendar"
 
   # Vos contenus classés par page 
 

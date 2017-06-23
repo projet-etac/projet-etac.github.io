@@ -1,6 +1,6 @@
 <!-- Header Start -->
 <a id="haut"></a>
-<header>
+<!-- <header>
 <div class="container" id="container-header">
   <div class="row">
     <div class="col-md-12">
@@ -39,3 +39,187 @@
     {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}"><span class="point">{{ page.lang }}</span></a> {% endfor %}
   </div>
 </header>
+ -->
+
+<style>
+#faCross{
+  display:none;
+}
+  .wrapHeader{
+    width:100%;
+    padding:0 10px;
+    margin: auto;
+  }
+  .raw{
+    display:flex;
+    height:70px;
+  }
+  .logo{
+    flex: 1;
+    width: 30%;
+    margin: auto;
+  }
+  .logo img{
+    width: auto;
+    margin: auto;
+    max-height: 50px; 
+  }
+  .spaceMenu{
+    flex:1;
+  }
+  .navBurger{
+    flex:1;
+    margin:auto;
+text-align: center; 
+  }
+  .navBurger i{
+    font-size:40px;
+  }
+
+  .listeMenu{
+    display:none;
+  }
+.listeMenu ul{
+  list-style: none;
+}
+  .langs{
+    position: absolute;
+    top: -13px;
+    right: 85px;
+  }
+  .langs .point{
+    margin-bottom:5px;
+  }
+.point{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 20px;
+}
+#navMenu{
+  background:white;
+  display:none;
+  padding:15px 0;
+}
+#navMenu .listeNavMenu{
+  text-align: center;
+  font-size:20px;
+  padding:15px 0;
+}
+@media screen and (min-width:480px)
+{
+  .wrapHeader{
+    width:80%;
+  }
+.langs{
+  right:115px;
+} 
+
+}
+@media screen and (min-width:720px){
+  .listeNavMenu{
+    display:none;
+  }
+  .listeMenu{
+    display: block;
+  }
+  .listeMenu li{
+  display:inline-block;
+  padding-right: 10px;
+}
+.listeMenu li a{
+  font-size: 16px;
+}
+  .navBurger i{
+    display:none;
+  }
+  .navBurger{
+    flex:3;
+  }
+  .spaceMenu{
+    display:none;
+  }
+  .langs{
+    position: absolute;
+    top: 40px;
+    right:20px;
+  }
+  .point{
+    width:40px !important;
+    height:40px !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+
+  }
+}
+@media screen and (min-width:1100px)
+{
+  .listeMenu li a{
+    font-size: 19px;
+    padding-right: 10px;
+  }
+}
+
+</style>
+
+ <header>
+   <div class="wrapHeader">
+     <div class="raw">
+      <div class="logo">
+        <a href="index.html">
+          <img class="" src="{{ site.baseurl }}/img/logoEtac/etacLogoClassic.png" alt="Logo e-TAC">
+        </a>
+      </div>
+      <div class="spaceMenu"></div>
+      <div class="navBurger">
+        <i id="faMenu" class="fa fa-bars" aria-hidden="true" onclick="clickMenu();"></i>
+        <i id="faCross" class="fa fa-times" aria-hidden="true" onclick="clickMenu();" ></i>
+         <ul class="listeMenu">
+                {% for menu in site.data.[page.lang].menu %}
+                  <li><a href="{{ site.baseurl }}{{ menu[1].url }}"
+                    {% if menu[1].name == page.focus %}
+                      class="focusHeader"
+                    {% endif %} id="id-{{ menu[1].name }}"
+                  >{{ menu[1].name }}</a></li>
+                {% endfor %}
+                <li><a class="js-scrollTo" href="#contact">Contact</a></li>
+          </ul>
+        <div class="langs">
+          {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+          {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}"><span class="point">{{ page.lang }}</span></a> {% endfor %}
+        </div>
+      </div>
+     </div>
+   </div>
+   <div id="navMenu">
+     <ul class="listeNavMenu">
+                {% for menu in site.data.[page.lang].menu %}
+                  <li><a href="{{ site.baseurl }}{{ menu[1].url }}"
+                    {% if menu[1].name == page.focus %}
+                      class="focusHeader"
+                    {% endif %} id="id-{{ menu[1].name }}"
+                  >{{ menu[1].name }}</a></li>
+                {% endfor %}
+                <li><a class="js-scrollTo" href="#contact">Contact</a></li>
+          </ul>
+   </div>
+ </header>
+
+ <script>
+   function clickMenu(){
+    var menu = document.getElementById('navMenu');
+    var facross = document.getElementById('faCross');
+    var famenu = document.getElementById('faMenu');
+    if(menu.style.display == "none")
+      {
+        menu.style.display ="block";
+        famenu.style.display ="none";
+        facross.style.display ="block";
+      }
+    else{
+      menu.style.display ="none";
+      famenu.style.display ="block";
+        facross.style.display ="none";
+    }
+   }
+ </script>
