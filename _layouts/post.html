@@ -1,24 +1,51 @@
 ---
 layout: page
+
 ---
+
 
 <div class="post">
   <!-- Wrapper Start -->
 <!--   <div class="postContainer" style="border: 1px dotted #ddd;"> -->
     <div class="container postContainer">
         <div>
-        <div class="block">
-        <h1>{{ page.title }}</h1>
-          <div class="imgPostContainer">
+          <div class="row">
+          <div class="col-md-12">
+              <div class="titlePost">
+                  <h1>{{ page.title }}</h1>
+              </div>
+          </div>
+            <div class="col-md-4">
+    
+
+             <div class="post-info-wrapper">
+             <ul>
+               <li>
+                 <p><b>Article rédigé par</b> <i>{{ page.author }}</i></p>
+               </li>
+               <!-- <li><img src="{{ site.data[page.lang].authors.{{ page.author }}. }}" alt=""></li> -->
+               <li>
+                 <p><b>Date</b> {{ page.date | date: "%d %B, %Y" }}</p>
+               </li>
+               <li>
+                  <p><b>Catégorie :</b> {{ page.categorie }}</p>
+               </li>
+               <li>
+                 <p>Article en {% if page.lang == fr %} français {% else %} anglais {% endif %}</p>
+               </li>
+             </ul>
+            </div>
+            </div>
+          <div class="col-md-8">
+            <div class="imgPostContainer">
              <img src="{{ site.baseurl }}/{{ page.picture }}" alt="">
           </div>
         </div>
+          </div>
+          
           <div class="block">
             
-            <div class="post-info-wrapper">
-              <p class="italic">Article rédigé par <span class="bold">{{ page.author }}</span> le <span class="bold">{{ page.date | date: "%d %B, %Y" }}</span></p>
-              <p>Catégorie : {{ page.categorie }}</p>
-            </div>
+            
             <hr />
             <p>{{ content }}</p>
           </div>
