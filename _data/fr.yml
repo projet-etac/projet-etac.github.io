@@ -28,19 +28,10 @@ menu:
     name: "Calendrier"
     url: "/index#calendar"
 
+#contenu du bas de page 
 
-# # Présentation des auteurs
-
-# author:
-#   - name: "Francis lala"
-#     description: "Un parcours exemplaire au sein de l'académie nationnal des jeux de société qui l'a conduit à la direction du projet 'Triche entre copain'."
-#     profil: "..." 
-    
-# categorie:
-#   - name: "categorie_01"
-#   - name: "categorie_02"
-#   - name: "categorie_03"
-#   - name: "categorie_04"
+footer:
+  contact: "Université de Lorraine - 34 cours Léopold CS 25233 54052 Nancy cedex - France"
 
   # Vos contenus classés par page 
 
@@ -218,6 +209,29 @@ pages:
       paragraphe2: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
                 auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
                 leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+  credits:
+    section-1:
+      title: "Crédits"
+    section-2:
+      title1: "Ressources liées à la création du site"
+      ressource1: 
+        name: "Thème : Airspace"
+        url: "https://github.com/luminousrubyist/airspace-jekyll"
+        author: "Auteur : ThemeFisher / Adaptation à Jekyll : Andrew Lee"
+      ressource2: 
+        name: "Formulaire de contact : Formspree"
+        url: "https://formspree.io/"
+        author: ""
+      ressource3: 
+        name: "Timeline"
+        url: "https://codyhouse.co/gem/vertical-timeline/"
+        author: "Sebastiano Guerriero"
+      title2: "Webdevelopers" 
+      developer1:
+        name: "Pierre Kessler"
+      developer2:
+        name: "Rémi Maringer"
+        url: "http://reyz-design.fr/"     
 # Les différents chercheurs / enseignants qui apparaitront sur le site 
 
 authors:
