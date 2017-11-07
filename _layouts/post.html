@@ -1,0 +1,89 @@
+---
+layout: page
+
+---
+
+
+<div class="post">
+  <!-- Wrapper Start -->
+<!--   <div class="postContainer" style="border: 1px dotted #ddd;"> -->
+    <div class="container postContainer">
+        <div>
+          <div class="row">
+          <div class="col-md-12">
+              <div class="titlePost">
+                  <h1>{{ page.title }}</h1>
+              </div>
+          </div>
+            <div class="col-md-4">
+    
+
+             <div class="post-info-wrapper">
+             <ul>
+               <li>
+                 <p><b>Article rédigé par</b> <i>{{ page.author }}</i></p>
+               </li>
+               <!-- <li><img src="{{ site.data[page.lang].authors.{{ page.author }}. }}" alt=""></li> -->
+               <li>
+                 <p><b>Date</b> {{ page.date | date: "%d %B, %Y" }}</p>
+               </li>
+               <li>
+                  <p><b>Catégorie :</b> {{ page.categorie }}</p>
+               </li>
+               <li>
+                 <p>Article en {% if page.lang == fr %} français {% else %} anglais {% endif %}</p>
+               </li>
+             </ul>
+            </div>
+            </div>
+          <div class="col-md-8">
+            <div class="imgPostContainer">
+             <img src="{{ site.baseurl }}/{{ page.picture }}" alt="">
+          </div>
+        </div>
+          </div>
+          
+          <div class="block">
+            
+            
+            <hr />
+            <p>{{ content }}</p>
+          </div>
+        </div><!-- .col-md-7 close -->
+    </div>
+     <section>
+    <div class="container nextPrev">
+      {% if page.previous or page.next %}
+          <div class="npC">
+            {% if page.previous %}
+            <p>{{ page.previous.title }}</p>
+              <div class="nextPrevImg">
+                <a href="{{ page.previous.url | absolute_url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}"><img src="{{ site.baseurl }}/{{ page.previous.picture }}" alt=""><div class="centerI"><i class="fa fa-arrow-left" aria-hidden="true"></i></div></a>
+              </div>
+            {% else %}
+              <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+            {% endif %}
+          </div>
+          <div class="npC">
+          {% if page.next %}
+          <p>{{ page.previous.title }}</p>
+            <div class="nextPrevImg">
+              <a href="{{ page.next.url | absolute_url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}">
+                <img src="{{ site.baseurl }}/{{ page.next.picture }}" alt="">
+                <div class="centerI"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+               </a>
+            </div>
+            {% else %}
+              <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+            {% endif %}
+            </div>
+          {% endif %}
+        </div>
+
+      
+  </section>
+<!--      </div> -->
+</div>
+<!-- <p class="center-text" style="padding: 30px;">
+  <a href="{{ site.baseurl }}/blog">Back to blog</a>
+</p> -->

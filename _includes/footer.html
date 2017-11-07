@@ -1,0 +1,87 @@
+<!-- footer Start -->
+<footer>
+<section id="contactForm">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block center">
+          <h2>{{ site.data[page.lang].pages.accueil.form.titre }}</h2>
+        </div>
+      </div>  
+           <form id="contact-form" action="//formspree.io/contact@bac-a-sable.fr" method="post">
+              <div class="col-md-6 col-sm-12">
+                <div class="block">
+                    <div class="form-group">
+                      <input type="text" name="Name" placeholder="Votre nom" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" name="Email" placeholder="Adresse e-mail" class="form-control" required>
+                    </div>
+                       <!--   CONFIG -->
+                      <input class="is-hidden" type="hidden" name="_gotcha">
+                      <input type="hidden" name="_subject" value="Subject">
+                      <input type="hidden" name="_cc" value="contact@bac-a-sable.fr">
+                    <!--   /CONFIG -->
+
+                  </div>
+                </div> 
+                <div class="col-md-6 col-sm-12">
+                <div class="block">
+                    <div class="form-group">
+                       <textarea name="Message" cols="30" rows="6" placeholder="Message" class="form-control message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                       <input type="hidden" name="_cc" value="contact@bac-a-sable.fr" class="form-control">
+                    </div>
+                  </div>
+                </div> 
+                <div class="col-md-12">
+                  <div class="block center">
+                     <div class="submit CTAButton">
+                          <input  id="submitBtn" class="resetButton"type="submit" value="{{ site.data[page.lang].pages.accueil.form.bouton }}"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        </div>
+                  </div>
+                </div>
+           </form>
+      </div>
+    </div>
+</section>
+<!--         <div class="footer-manu">
+  <ul>
+      {% for menu in site.data.data.t[page.lang] %}
+        <li><a href="{{ site.baseurl }}{{ menu[1].url }}">{{ menu[1].name }}</a></li>
+      {% endfor %}
+  </ul>
+</div> -->
+           <div class="twitterContainer block center">
+           <a href="{{ site.data.fr.social.twitter.url }}" class="CTAButton reverse" target="_blank">{{ site.data[page.lang].boutons.twitter-button }}<i class="fa fa-twitter" aria-hidden="true"></i> </a>
+          </div> 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="container-logo-footer">
+            <div class="logo-footer-img">
+              <img src="{{ site.baseurl }}/img/logoPartenaires/caisseDepots.png" alt="logo e-Fran">
+            </div>
+            <div class="logo-footer-img">
+              <img src="{{ site.baseurl }}/img/logoPartenaires/investissementsDavenir.png" alt="logo Investiseements d'Avenir">
+            </div>
+            <div class="logo-footer-img">
+              <img src="{{ site.baseurl }}/img/logoPartenaires/efranlogo.jpg" alt="logo e-tac">
+            </div>
+            <div class="logo-footer-img">
+              <img src="{{ site.baseurl }}/img/logoEtac/etacLogoClassic.png" alt="logo e-tac">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="col-md-12 mentions-legales">
+         <p>{{ site.data.fr.footer.contact }}</p> <a href="{{ site.baseurl }}/mentions.html">Mentions légales</a> - 
+         <a href="{{ site.baseurl }}/credits.html">Crédits</a>
+        </div>
+    </div>
+</section>
+</footer>
+<a id="contact"></a>

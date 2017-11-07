@@ -1,0 +1,247 @@
+#Boutons d'appel à l'action 
+
+boutons:
+  classic-call-to-action : "Read more"
+  twitter-button: "Follow us"
+
+# Les titres du menu en français
+
+menu:
+  accueil:
+    name: "Home"
+    url: "/accueil-en"
+  actus:
+    name: "News"
+    url: "/actualite-en"
+  enseignement:
+    name: "Teachers"
+    url: "/enseignement-en"
+  recherche:
+    name: "Researchers"
+    url: "/recherche-en"
+  calendar:
+    name: "Calendar"
+    url: "/accueil-en#calendar"
+
+  # Vos contenus classés par page 
+
+pages:
+  accueil:
+    #section accueil
+    section-accueil:
+      titre: "e-TAC"
+      paragraphe1: "A project of Investment of Future dedicated to the Tangible Interfaces Increased in educational environment."
+      bouton1: "I'm a teacher"
+      bouton2: "I'ma researcher"
+    #section 1
+    section-1:
+      titre: "The e-TAC project"
+      paragraphe1: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime rhoncus und ullamcorper 
+                barapli Chulien lacus kuglopf condimentum sit Oberschaeffolsheim wie schpeck Pfourtz ! ch'ai 
+                sit suspendisse Morbi Chulia Roberstau leo merci vielmols schnaps hopla munster yeuh."
+      paragraphe2: "ch'ai sit suspendisse Morbi 
+               Chulia Roberstau leo merci vielmols schnaps hopla munster yeuh. rucksack Coopé de Truchtersheim 
+               tristique risus, Heineken Racing. sit vulputate Gal ! vielmols, senectus id wurscht Salu bissame 
+               Wurschtsalad Huguette flammekueche rossbolla geht's turpis, commodo sed Strasbourg morbi placerat 
+               Spätzle Verdammi DNA, Salut bisamme Gal. consectetur libero. knepfle dui jetz gehts los s'guelt dolor 
+               amet gravida ac leo Christkindelsmärik mamsell schneck turpis quam. quam, amet, varius Carola 
+               kartoffelsalad météor hopla ornare eget ftomi! sagittis libero, non mollis hopla lotto-owe kougelhopf "
+    #section 2
+    section-2:
+      titre: "ITA in two words"
+      paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime rhoncus und ullamcorper 
+                barapli Chulien lacus kuglopf condimentum sit Oberschaeffolsheim wie schpeck Pfourtz ! ch'ai 
+                sit suspendisse Morbi Chulia Roberstau leo merci vielmols schnaps hopla munster yeuh."
+    #calendrier
+    calendrier:
+      titre: "Calendar"
+      container-1:
+        titre: "Mise en vente du produit"
+        paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+        annee: "2018"
+        mois: "october"
+        lien-bouton: "#"
+      container-2:
+        titre: "Test du prototype auprès d'un groupe d'enseignants"
+        paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+        annee: "2018"
+        mois: "august"
+        lien-bouton: "#"
+      container-3:
+        titre: "Création de la petite vis qui tient le boîtier"
+        paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+        annee: "2018"
+        mois: "january"
+        lien-bouton: "#"
+      container-4:
+        titre: "Acheminement des emballages à bulles"
+        paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+        annee: "2017"
+        mois: "december"
+        lien-bouton: "#"
+      container-5:
+        titre: "Réflexion sur l'écosystème de l'innovation"
+        paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+        annee: "2017"
+        mois: "september"
+        lien-bouton: "#"
+      container-6:
+        titre: "Co-design avec des enfants"
+        paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+        annee: "2016"
+        mois: "january"
+        lien-bouton: "#"
+    #fun fact
+    fun-fact:
+      titre: "Fun facts about the projects"
+      paragraphe1: "Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+      nombres:
+        nombre1:
+          nbr: "1543"
+          info: "students concerned"
+        nombre2:
+          nbr: "153"
+          info: "researchers and teachers"
+        nombre3:
+          nbr: "3000000"
+          info: "euros budget"
+        nombre4:
+          nbr: "12745"
+          info: "coffee cups"
+    #partenaires
+    partenaires:
+      title: "Our partners"
+      #rajouter un logo partenaire : insérer image ( .png ou .jpg ) dans img/logoPartenaires et rajouter la ligne en respectant les modèles ci-dessous
+      
+      partenaire2:
+        nom: "Réseau Canopé"
+        logo: "canope.jpg"
+        url: ""
+      partenaire3:
+        nom: "Crem"
+        logo: "crem.jpg"
+        url: ""
+      
+      partenaire5:
+        nom: "ESPE Lorraine"
+        logo: "espe.jpg"
+        url: ""
+      partenaire6:
+        nom: "Inria"
+        logo: "inria.jpg"
+        url: ""
+      
+      partenaire8:
+        nom: "OpenEdge"
+        logo: "openedge.png"
+        url: ""
+      partenaire9:
+        nom: "Potioc"
+        logo: "potioc.png"
+        url: ""
+
+      partenaire11:
+        nom: "Université de Lorraine"
+        logo: "univ-lorraine.jpg"
+        url: ""
+    #formulaire contact
+    form:
+      title: "A question ? Tell us !"
+      bouton: "Send message"
+  #page actualités
+  actus:
+    #Première section sur laquelle se trouve l'image de fond
+    section-1:
+      title: "Last news"
+  
+  #page chercheurs 
+
+  recherche:
+    section-1:
+      title: "The search in the service of the education"
+    section-2:
+      title1: "Researchers, experiences"
+      paragraphe1: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"  
+      title2: "Find a new way to catch datas"
+
+      paragraphe2: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+  enseigants:
+    section-1:
+      title: "Learning will never be the same"
+    section-2:
+      title1: "Travail avec des enfants"
+      paragraphe1: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"  
+      title2: "Every student at his own pace"
+
+      paragraphe2: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+# Les différents chercheurs / enseignants qui apparaitront sur le site 
+
+authors:
+  author1:
+    prenom: "Stéphanie"
+    nom: "Fleck"
+    post: "Maître de conférence"
+    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf,"
+    #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
+    photo-adulte: "chercheur2.png"
+    photo-enfant: "chercheur2.png"
+  author2:
+    prenom: "Pierre"
+    nom: "Kessler"
+    post: "Directeur projets - Reseau Canopé"
+    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf,"
+    #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
+    photo-adulte: "chercheur1.png"
+    photo-enfant: "chercheur1.png"
+
+#Catégories des différents posts pour la rubrique enseignants et chercheurs 
+# La référence ( ref ) de la catégorie ne doit pas contenir de caractères particulier : accents, espaces, tirets,...
+
+categories-posts:
+  enseignants: 
+    cat1:
+      nom: "Category 1"
+      ref: "cat1"
+    cat2:
+      nom: "Category 2"
+      ref: "cat2"
+    cat3: 
+      nom: "Category 3"
+      ref: "cat3"
+  chercheurs: 
+    cat1:
+      nom: "Category 1"
+      ref: "cat1"
+    cat2:
+      nom: "Category 2"
+      ref: "cat2"
+    cat3: 
+      nom: "Category 3"
+      ref: "cat3"
