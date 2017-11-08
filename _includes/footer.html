@@ -8,7 +8,7 @@
           <h2>{{ site.data[page.lang].pages.accueil.form.titre }}</h2>
         </div>
       </div>  
-           <form id="contact-form" action="//formspree.io/contact@bac-a-sable.fr" method="post">
+           <form id="contact-form" action="//formspree.io/{{ site.form_mail }}" method="post">
               <div class="col-md-6 col-sm-12">
                 <div class="block">
                     <div class="form-group">
@@ -20,7 +20,7 @@
                        <!--   CONFIG -->
                       <input class="is-hidden" type="hidden" name="_gotcha">
                       <input type="hidden" name="_subject" value="Subject">
-                      <input type="hidden" name="_cc" value="contact@bac-a-sable.fr">
+                      <input type="hidden" name="_cc" value="{{ site.form_mail }}">
                     <!--   /CONFIG -->
 
                   </div>
@@ -31,7 +31,7 @@
                        <textarea name="Message" cols="30" rows="6" placeholder="Message" class="form-control message" required></textarea>
                     </div>
                     <div class="form-group">
-                       <input type="hidden" name="_cc" value="contact@bac-a-sable.fr" class="form-control">
+                       <input type="hidden" name="_cc" value="{{ site.form_mail }}" class="form-control">
                     </div>
                   </div>
                 </div> 

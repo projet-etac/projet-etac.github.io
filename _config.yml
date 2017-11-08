@@ -21,6 +21,7 @@ url: "https://projet-etac.github.io" # the base hostname & protocol for your sit
 baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
+form_mail : "contact@bac-a-sable.eu"
 
 # Build settings
 markdown: kramdown
