@@ -212,9 +212,9 @@ authors:
     photo-adulte: "chercheur2.png"
     photo-enfant: "chercheur2.png"
   author2:
-    prenom: "Pierre"
-    nom: "Kessler"
-    post: "Directeur projets - Reseau Canopé"
+    prenom: "Yves"
+    nom: "Schneider"
+    post: " "Directeur territorial adjoint Région Grand Est - Réseau Canopé""
     bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
                 auctor, Oberschaeffolsheim id, libero, blottkopf,"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
