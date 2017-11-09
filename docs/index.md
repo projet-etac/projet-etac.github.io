@@ -1,10 +1,10 @@
 <img src="etacLogoClassic.png"> 
 
-# Projet e-TAC
+# On déménage
 
 
 
-## Le site du projet e-TAC a déménagé. Il occupe désormais son propre dépôt Github.
+## Le site du projet e-TAC a changé d'adresse. Il occupe désormais son propre dépôt Github.
 
 
 
