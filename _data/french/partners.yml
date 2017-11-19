@@ -11,7 +11,7 @@
       partenaire2:
         nom: "Réseau Canopé"
         logo: "canope.jpg"
-        url: ""
+        url: "https://www.reseau-canope.fr/"
 
       partenaire3:
         nom: "Académie de Nancy-Metz"

@@ -1,0 +1,29 @@
+#section accueil
+    section-accueil:
+      titre: "e-TAC"
+      paragraphe1: "Un projet d'Investissement d'Avenir consacré aux Interfaces Tangibles Augmentées en milieu éducatif."
+      bouton1: "Je suis enseignant"
+      bouton2: "Je suis chercheur"
+    #section 1
+    section-1:
+      titre: "Le projet E-Tac"
+      paragraphe1: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime rhoncus und ullamcorper 
+                barapli Chulien lacus kuglopf condimentum sit Oberschaeffolsheim wie schpeck Pfourtz ! ch'ai 
+                sit suspendisse Morbi Chulia Roberstau leo merci vielmols schnaps hopla munster yeuh."
+      paragraphe2: "ch'ai sit suspendisse Morbi 
+               Chulia Roberstau leo merci vielmols schnaps hopla munster yeuh. rucksack Coopé de Truchtersheim 
+               tristique risus, Heineken Racing. sit vulputate Gal ! vielmols, senectus id wurscht Salu bissame 
+               Wurschtsalad Huguette flammekueche rossbolla geht's turpis, commodo sed Strasbourg morbi placerat 
+               Spätzle Verdammi DNA, Salut bisamme Gal. consectetur libero. knepfle dui jetz gehts los s'guelt dolor 
+               amet gravida ac leo Christkindelsmärik mamsell schneck turpis quam. quam, amet, varius Carola 
+               kartoffelsalad météor hopla ornare eget ftomi! sagittis libero, non mollis hopla lotto-owe kougelhopf "
+    #section 2
+    section-2:
+      titre: "Les ITA en deux mots"
+      paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
+                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime rhoncus und ullamcorper 
+                barapli Chulien lacus kuglopf condimentum sit Oberschaeffolsheim wie schpeck Pfourtz ! ch'ai 
+                sit suspendisse Morbi Chulia Roberstau leo merci vielmols schnaps hopla munster yeuh."

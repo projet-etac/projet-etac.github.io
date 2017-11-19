@@ -58,7 +58,7 @@
         <i id="faMenu" class="fa fa-bars" aria-hidden="true" onclick="clickMenu();"></i>
         <i id="faCross" class="fa fa-times" aria-hidden="true" onclick="clickMenu();" ></i>
          <ul class="listeMenu">
-                {% for menu in site.data.[page.lang].menu %}
+                {% for menu in site.data.[page.lang].nav.menu %}
                   <li><a href="{{ site.baseurl }}{{ menu[1].url }}"
                     {% if menu[1].name == page.focus %}
                       class="focusHeader"
