@@ -19,11 +19,8 @@ menu:
   actus:
     name: "Actualités"
     url: "/actualite"
-  enseignement:
-    name: "Enseignants"
-    url: "/enseignement"
   recherche:
-    name: "Chercheurs"
+    name: "Articles"
     url: "/recherche"
   calendar:
     name: "Calendrier"
@@ -41,3 +38,15 @@ form:
 #contenu du bas de page 
 footer:
   contact: "Université de Lorraine - 34 cours Léopold CS 25233 54052 Nancy cedex - France"
+
+categories-posts:
+   chercheurs: 
+    cat1:
+      nom: "Qui sommes-nous ?"
+      ref: "cat1"
+    cat2:
+      nom: "Catégorie 2"
+      ref: "cat2"
+    cat3: 
+      nom: "Catégorie 3"
+      ref: "cat3"  

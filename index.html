@@ -1,7 +1,7 @@
 ---
 layout: page
 title: E-tac | Accueil
-lang: french
+lang: fr 
 ref: accueil
 focus: Accueil
 
@@ -76,7 +76,30 @@ var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
   </div>
 </div>
 </section>
-
+<!-- Clients Logo Section Start -->
+<div class="center calendarTitle"><h1>Les partenaires</h1></div>
+<section id="clients-logo-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div id="clients-logo" class="owl-carousel">
+          {% for partenaire in data-input.partners.partenaires %}
+            {% if partenaire[1].logo == "" or partenaire[1].logo == nil %}
+              {% else %}
+              <div class="clients-logo-img">
+                <a href="{{partenaire[1].url}}" target="_blank">
+                  <img src="{{ site.baseurl }}/img/logoPartenaires/{{partenaire[1].logo}}" alt="Logo {{ partenaire[1].nom }}">
+                </a>  
+              </div>
+            {% endif %}
+          {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- timeline start -->
 <a id=calendar href=""></a>
@@ -225,30 +248,7 @@ var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
   </div>
 </section>
 
-<!-- Clients Logo Section Start -->
-<div class="center calendarTitle"><h1>Nos partenaires</h1></div>
-<section id="clients-logo-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <div id="clients-logo" class="owl-carousel">
-          {% for partenaire in data-input.partners.partenaires %}
-            {% if partenaire[1].logo == "" or partenaire[1].logo == nil %}
-              {% else %}
-              <div class="clients-logo-img">
-                <a href="{{partenaire[1].url}}" target="_blank">
-                  <img src="{{ site.baseurl }}/img/logoPartenaires/{{partenaire[1].logo}}" alt="Logo {{ partenaire[1].nom }}">
-                </a>  
-              </div>
-            {% endif %}
-          {% endfor %}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 <!-- timeline script  -->
 <script src="{{ site.baseurl }}/js/customScript.js"></script> 
