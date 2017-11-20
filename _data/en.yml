@@ -9,7 +9,7 @@ boutons:
 menu:
   accueil:
     name: "Home"
-    url: "/accueil-en"
+    url: "/index-en"
   actus:
     name: "News"
     url: "/actualite-en"
@@ -21,7 +21,7 @@ menu:
     url: "/recherche-en"
   calendar:
     name: "Calendar"
-    url: "/accueil-en#calendar"
+    url: "/index-en#calendar"
 
   # Vos contenus classés par page 
 

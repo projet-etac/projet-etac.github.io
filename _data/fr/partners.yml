@@ -1,0 +1,30 @@
+ #partenaires
+    partenaires:
+      title: "Nos partenaires"
+      #rajouter un logo partenaire : insérer image ( .png ou .jpg ) dans img/logoPartenaires et rajouter la ligne en respectant les modèles ci-dessous
+      
+      partenaire1:
+        nom: "Université de Lorraine"
+        logo: "univ-lorraine.jpg"
+        url: ""
+
+      partenaire2:
+        nom: "Réseau Canopé"
+        logo: "canope.jpg"
+        url: "https://www.reseau-canope.fr/"
+
+      partenaire3:
+        nom: "Académie de Nancy-Metz"
+        logo: "academie.png"
+        url: ""  
+           
+      partenaire4:
+        nom: "Inria"
+        logo: "inria.jpg"
+        url: ""
+      
+      partenaire5:
+        nom: "OpenEdge"
+        logo: "openedge.png"
+        url: ""
+     

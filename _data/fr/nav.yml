@@ -1,0 +1,52 @@
+#Boutons d'appel à l'action 
+
+boutons:
+  classic-call-to-action : "Lire la suite"
+  twitter-button: "Suivre notre actualité"
+
+# Vos réseaux sociaux sont disponnible dans le fichier config.yml
+social:
+  twitter:
+    title: "Nos actualités"
+    url: "http://twitter.com/jekyllrb"
+
+# Les titres du menu en français
+
+menu:
+  accueil:
+    name: "Accueil"
+    url: "/index"
+  actus:
+    name: "Actualités"
+    url: "/actualite"
+  recherche:
+    name: "Articles"
+    url: "/recherche"
+  calendar:
+    name: "Calendrier"
+    url: "/index#calendar"
+
+
+#formulaire contact
+form:
+  title: "Une question ? Nous serons heureux de vous répondre !"
+  bouton: "Envoyer le message"
+  form-name: "Votre nom"
+  form-message: "Votre message"
+  form-your-mail: "Votre adresse mail"
+
+#contenu du bas de page 
+footer:
+  contact: "Université de Lorraine - 34 cours Léopold CS 25233 54052 Nancy cedex - France"
+
+categories-posts:
+   chercheurs: 
+    cat1:
+      nom: "Qui sommes-nous ?"
+      ref: "cat1"
+    cat2:
+      nom: "Catégorie 2"
+      ref: "cat2"
+    cat3: 
+      nom: "Catégorie 3"
+      ref: "cat3"  

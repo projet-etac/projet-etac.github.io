@@ -1,0 +1,23 @@
+
+    section-1:
+      title: "Crédits"
+    section-2:
+      title1: "Ressources liées à la création du site"
+      ressource1: 
+        name: "Thème : Airspace"
+        url: "https://github.com/luminousrubyist/airspace-jekyll"
+        author: "Auteur : ThemeFisher / Adaptation à Jekyll : Andrew Lee"
+      ressource2: 
+        name: "Formulaire de contact : Formspree"
+        url: "https://formspree.io/"
+        author: ""
+      ressource3: 
+        name: "Timeline"
+        url: "https://codyhouse.co/gem/vertical-timeline/"
+        author: "Sebastiano Guerriero"
+      title2: "Webdevelopers" 
+      developer1:
+        name: "Pierre Kessler"
+      developer2:
+        name: "Rémi Maringer"
+        url: "http://reyz-design.fr/"   
