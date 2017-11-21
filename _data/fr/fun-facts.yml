@@ -1,18 +1,17 @@
    #fun facts
     fun-fact:
       titre: "Quelques Fun facts sur le projet"
-      paragraphe1: "Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
-                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+      paragraphe1: "Chiffres donnés par les organisateurs sous réserve de validation par les autorités en place ;-)"
       nombres:
         nombre1:
-          nbr: "1543"
+          nbr: "751"
           info: "élèves concernés"
         nombre2:
-          nbr: "153"
+          nbr: "35"
           info: "chercheurs et enseignants"
         nombre3:
-          nbr: "3000000"
+          nbr: "2406600"
           info: "euros de budget"
         nombre4:
-          nbr: "12745"
-          info: "tasses de café"
+          nbr: "50589"
+          info: "tasses de café"           
