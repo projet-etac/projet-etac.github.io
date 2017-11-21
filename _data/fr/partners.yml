@@ -6,7 +6,7 @@
       partenaire1:
         nom: "Université de Lorraine"
         logo: "univ-lorraine.jpg"
-        url: ""
+        url: "http://www.univ-lorraine.fr"
 
       partenaire2:
         nom: "Réseau Canopé"
@@ -16,15 +16,15 @@
       partenaire3:
         nom: "Académie de Nancy-Metz"
         logo: "academie.png"
-        url: ""  
+        url: "https://www.ac-nancy-metz.fr"  
            
       partenaire4:
         nom: "Inria"
         logo: "inria.jpg"
-        url: ""
+        url: "https://www.inria.fr"
       
       partenaire5:
         nom: "OpenEdge"
         logo: "openedge.png"
-        url: ""
+        url: "http://openedge.cc/"
      

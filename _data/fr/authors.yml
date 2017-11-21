@@ -10,8 +10,61 @@ authors:
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
     photo-adulte: "chercheur2.png"
     photo-enfant: "chercheur2.png"
-  
+  author2:
+    prenom: "Luc"
+    nom: "Massou"
+    post: "Maître de conférence"
+    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf,"
+    #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
+    photo-adulte: "chercheur1.png"
+    photo-enfant: "chercheur2.png"
+  author3:
+    prenom: "Benoît"
+    nom: "Roussel"
+    post: "Maître de conférence"
+    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf,"
+    #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
+    photo-adulte: "chercheur1.png"
+    photo-enfant: "chercheur2.png" 
+  author4:
+    prenom: "Pierre"
+    nom: "Humbert"
+    post: "Maître de conférence"
+    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf,"
+    #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
+    photo-adulte: "chercheur1.png"
+    photo-enfant: "chercheur2.png"
+  author5:
+    prenom: "Christian"
+    nom: "Bastien"
+    post: "Professeur des Universités"
+    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf,"
+    #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
+    photo-adulte: "chercheur1.png"
+    photo-enfant: "chercheur2.png"
+  author6:
+    prenom: "Martin"
+    nom: "Hachet"
+    post: "Directeur de Recherche"
+    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf,"
+    #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
+    photo-adulte: "chercheur1.png"
+    photo-enfant: "chercheur2.png"
   author7:
+    prenom: "David"
+    nom: "Bertolo"
+    post: "Maître de conférence"
+    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf,"
+    #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
+    photo-adulte: "chercheur1.png"
+    photo-enfant: "chercheur2.png"
+  author8:
     prenom: "Yves"
     nom: "Schneider"
     post: "Directeur territorial adjoint Région Grand Est - Réseau Canopé"
