@@ -8,8 +8,12 @@ authors:
     bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
                 auctor, Oberschaeffolsheim id, libero, blottkopf,"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
-    photo-adulte: "chercheur2.png"
+    photo-adulte: "fleckadulte.jpg"
     photo-enfant: "chercheur2.png"
+<<<<<<< HEAD
+=======
+
+>>>>>>> c8d97b3a85635d425069e9ec9c9e33488957dfa3
   author2:
     prenom: "Luc"
     nom: "Massou"
@@ -17,8 +21,14 @@ authors:
     bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
                 auctor, Oberschaeffolsheim id, libero, blottkopf,"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
+<<<<<<< HEAD
     photo-adulte: "chercheur1.png"
     photo-enfant: "chercheur2.png"
+=======
+    photo-adulte: "Luc Massou adulte.jpg"
+    photo-enfant: "chercheur2.png"    
+
+>>>>>>> c8d97b3a85635d425069e9ec9c9e33488957dfa3
   author3:
     prenom: "Benoît"
     nom: "Roussel"
@@ -27,7 +37,12 @@ authors:
                 auctor, Oberschaeffolsheim id, libero, blottkopf,"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
     photo-adulte: "chercheur1.png"
+<<<<<<< HEAD
     photo-enfant: "chercheur2.png" 
+=======
+    photo-enfant: "chercheur2.png"
+
+>>>>>>> c8d97b3a85635d425069e9ec9c9e33488957dfa3
   author4:
     prenom: "Pierre"
     nom: "Humbert"
@@ -36,7 +51,12 @@ authors:
                 auctor, Oberschaeffolsheim id, libero, blottkopf,"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
     photo-adulte: "chercheur1.png"
+<<<<<<< HEAD
     photo-enfant: "chercheur2.png"
+=======
+    photo-enfant: "chercheur2.png"  
+
+>>>>>>> c8d97b3a85635d425069e9ec9c9e33488957dfa3
   author5:
     prenom: "Christian"
     nom: "Bastien"
@@ -45,6 +65,7 @@ authors:
                 auctor, Oberschaeffolsheim id, libero, blottkopf,"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
     photo-adulte: "chercheur1.png"
+<<<<<<< HEAD
     photo-enfant: "chercheur2.png"
   author6:
     prenom: "Martin"
@@ -55,6 +76,20 @@ authors:
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
     photo-adulte: "chercheur1.png"
     photo-enfant: "chercheur2.png"
+=======
+    photo-enfant: "chercheur2.png"       
+
+  author6:
+    prenom: "Martin"
+    nom: "Hachet"
+    post: "Directeur de recherche"
+    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
+                auctor, Oberschaeffolsheim id, libero, blottkopf,"
+    #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
+    photo-adulte: "Martin Hachet adulte.png"
+    photo-enfant: "chercheur2.png" 
+
+>>>>>>> c8d97b3a85635d425069e9ec9c9e33488957dfa3
   author7:
     prenom: "David"
     nom: "Bertolo"
@@ -63,7 +98,12 @@ authors:
                 auctor, Oberschaeffolsheim id, libero, blottkopf,"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
     photo-adulte: "chercheur1.png"
+<<<<<<< HEAD
     photo-enfant: "chercheur2.png"
+=======
+    photo-enfant: "chercheur2.png"        
+
+>>>>>>> c8d97b3a85635d425069e9ec9c9e33488957dfa3
   author8:
     prenom: "Yves"
     nom: "Schneider"
@@ -71,5 +111,7 @@ authors:
     bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
                 auctor, Oberschaeffolsheim id, libero, blottkopf,"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
-    photo-adulte: "chercheur1.png"
+    photo-adulte: "Yves Schneider adulte.jpg"
     photo-enfant: "chercheur1.png"
+
+    
