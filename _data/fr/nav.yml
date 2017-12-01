@@ -19,13 +19,13 @@ menu:
   actus:
     name: "Actualités"
     url: "/actualite"
-  recherche:
-    name: "Articles"
-    url: "/recherche"
-  calendar:
-    name: "Calendrier"
-    url: "/index#calendar"
+  wp:
+    name: "e-TAC en détail"
+    url: "#"
 
+  articles:
+    name: "Aller plus loin"
+    url: "/recherche"
 
 #formulaire contact
 form:
@@ -43,10 +43,10 @@ categories-posts:
    chercheurs: 
     cat1:
       nom: "Qui sommes-nous ?"
-      ref: "cat1"
+      ref: "acteurs"
     cat2:
-      nom: "Catégorie 2"
-      ref: "cat2"
+      nom: "En classe"
+      ref: "classe"
     cat3: 
-      nom: "Catégorie 3"
-      ref: "cat3"  
+      nom: "Au labo"
+      ref: "labo"  

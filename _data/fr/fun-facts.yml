@@ -1,17 +1,10 @@
    #fun facts
     fun-fact:
       titre: "Quelques Fun facts sur le projet"
-<<<<<<< HEAD
-      paragraphe1: "Chiffres donnés par les organisateurs sous réserve de vérification par les autorités :-)"
-      nombres:
-        nombre1:
-          nbr: "750"
-=======
       paragraphe1: "Chiffres donnés par les organisateurs sous réserve de validation par les autorités en place ;-)"
       nombres:
         nombre1:
           nbr: "751"
->>>>>>> c8d97b3a85635d425069e9ec9c9e33488957dfa3
           info: "élèves concernés"
         nombre2:
           nbr: "35"
@@ -20,10 +13,5 @@
           nbr: "2406600"
           info: "euros de budget"
         nombre4:
-<<<<<<< HEAD
-          nbr: "102745"
-          info: "tasses de café"
-=======
           nbr: "50589"
           info: "tasses de café"           
->>>>>>> c8d97b3a85635d425069e9ec9c9e33488957dfa3
