@@ -1,16 +1,16 @@
 ---
 layout: page
-title: E-tac | Les Articles
+title: E-tac | Aller plus loin
 lang: fr
 ref: recherche
-focus: Articles
+focus: Aller plus loin
 ---
 <div class="spacer"></div>
 <section id="global-header">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-          <h1>{{ site.data.[page.lang].recherche.section-1.title }}</h1>
+          <h1>{{ site.data.recherche.section-1.title }}</h1>
         </div>
     </div>
   </div>
@@ -21,14 +21,14 @@ focus: Articles
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <h2>{{ site.data.[page.lang].recherche.section-2.title1 }}</h2>
-            <p>{{ site.data.[page.lang].recherche.section-2.paragraphe1 }}</p>
+          <h2>{{ site.data.recherche.section-2.title1 }}</h2>
+            <p>{{ site.data.recherche.section-2.paragraphe1 }}</p>
         </div>
       </div>
       <div class="col-md-6 col-sm-12">
         <div class="block">
-        <h2>{{ site.data.[page.lang].recherche.section-2.title2 }}</h2>
-          <p>{{ site.data.[page.lang].recherche.section-2.paragraphe2 }}</p>
+        <h2>{{ site.data.recherche.section-2.title2 }}</h2>
+          <p>{{ site.data.recherche.section-2.paragraphe2 }}</p>
         </div>
       </div><!-- .col-md-5 close -->
     </div>
@@ -44,11 +44,9 @@ focus: Articles
               <div class="portfolio-menu">
                 <ul>
                    <li class="filter" data-filter="all">Tous</li>
-                   {% for categorie in site.data.fr.nav.categories-posts.chercheurs %}
+                   {% for categorie in site.data.nav.categories-posts.chercheurs %}
                       <li class="filter" data-filter=".{{ categorie[1].ref }}">{{ categorie[1].nom }}</li>
                    {% endfor %}
-                   <li class="filter" data-filter=".en">Anglais</li>
-                   <li class="filter" data-filter=".fr">Français</li>
                 </ul>
               </div>
                 <div class="portfolio-contant">

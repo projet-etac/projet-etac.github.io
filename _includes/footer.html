@@ -5,17 +5,17 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block center">
-          <h2>{{ site.data.[page.lang].nav.form.title }}</h2>
+          <h2>{{ site.data. nav.form.title }}</h2>
         </div>
       </div>  
            <form id="contact-form" action="//formspree.io/{{ site.form_mail }}" method="post">
               <div class="col-md-6 col-sm-12">
                 <div class="block">
                     <div class="form-group">
-                      <input type="text" name="Name" placeholder="{{ site.data.[page.lang].nav.form.form-name }}"  class="form-control" required>
+                      <input type="text" name="Name" placeholder="{{ site.data. nav.form.form-name }}"  class="form-control" required>
                     </div>
                     <div class="form-group">
-                      <input type="email" name="Email" placeholder="{{ site.data.[page.lang].nav.form.form-your-mail }}" class="form-control" required>
+                      <input type="email" name="Email" placeholder="{{ site.data. nav.form.form-your-mail }}" class="form-control" required>
                     </div>
                        <!--   CONFIG -->
                       <input class="is-hidden" type="hidden" name="_gotcha">
@@ -28,7 +28,7 @@
                 <div class="col-md-6 col-sm-12">
                 <div class="block">
                     <div class="form-group">
-                       <textarea name="Message" cols="30" rows="6" placeholder="{{ site.data.[page.lang].nav.form.form-message }}" class="form-control message" required></textarea>
+                       <textarea name="Message" cols="30" rows="6" placeholder="{{ site.data. nav.form.form-message }}" class="form-control message" required></textarea>
                     </div>
                     <div class="form-group">
                        <input type="hidden" name="_cc" value="{{ site.form_mail }}" class="form-control">
@@ -38,7 +38,7 @@
                 <div class="col-md-12">
                   <div class="block center">
                      <div class="submit CTAButton">
-                          <input  id="submitBtn" class="resetButton"type="submit" value="{{ site.data.[page.lang].nav.form.bouton }}"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                          <input  id="submitBtn" class="resetButton"type="submit" value="{{ site.data. nav.form.bouton }}"><i class="fa fa-envelope-o" aria-hidden="true"></i>
                         </div>
                   </div>
                 </div>
@@ -46,39 +46,30 @@
       </div>
     </div>
 </section>
-<!--         <div class="footer-manu">
-  <ul>
-      {% for menu in site.data.data.t[page.lang] %}
-        <li><a href="{{ site.baseurl }}{{ menu[1].url }}">{{ menu[1].name }}</a></li>
-      {% endfor %}
-  </ul>
-</div> -->
-           <div class="twitterContainer block center">
-           <a href="{{ site.data.fr.social.twitter.url }}" class="CTAButton reverse" target="_blank">{{ site.data.[page.lang].nav.boutons.twitter-button }}<i class="fa fa-twitter" aria-hidden="true"></i> </a>
+      <div class="twitterContainer block center">
+           <a href="{{ site.data.fr.social.twitter.url }}" class="CTAButton reverse" target="_blank">{{ site.data. nav.boutons.twitter-button }}<i class="fa fa-twitter" aria-hidden="true"></i> </a>
           </div> 
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="container-logo-footer">
             <div class="logo-footer-img">
-              <img src="{{ site.baseurl }}/img/logoPartenaires/caisseDepots.png" alt="logo e-Fran">
+              <a href="http://www.caissedesdepots.fr/" target="_blank"><img src="{{ site.baseurl }}/img/logoPartenaires/caisseDepots.png" alt="Caisse des Dépôts et Consignations"></a>
             </div>
             <div class="logo-footer-img">
-              <img src="{{ site.baseurl }}/img/logoPartenaires/investissementsDavenir.png" alt="logo Investiseements d'Avenir">
+              <a href="http://www.gouvernement.fr/le-commissariat-general-a-l-investissement" target="_blank"><img src="{{ site.baseurl }}/img/logoPartenaires/investissementsDavenir.png" alt="Programme d'Investissements d'Avenir"></a>
             </div>
             <div class="logo-footer-img">
-              <img src="{{ site.baseurl }}/img/logoPartenaires/efranlogo.jpg" alt="logo e-tac">
+              <a href="http://www.gouvernement.fr/e-fran-l-ecole-change-avec-le-numerique" target="_blank"><img src="{{ site.baseurl }}/img/logoPartenaires/efranlogo.jpg" alt="e-FRAN"></a>
             </div>
-            <!-- <div class="logo-footer-img">
-              <img src="{{ site.baseurl }}/img/logoEtac/etacLogoClassic.png" alt="logo e-tac">
-            </div> -->
+            
           </div>
         </div>
       </div>
     </div>
     <div class="container">
         <div class="col-md-12 mentions-legales">
-         <p>{{ site.data.[page.lang].nav.footer.contact }}</p> <a href="{{ site.baseurl }}/mentions.html">Mentions légales et  Crédits</a>
+         <p>{{ site.data. nav.footer.contact }}</p> <a href="{{ site.baseurl }}/mentions.html">Mentions légales et  Crédits</a>
         </div>
     </div>
 </section>

@@ -1,49 +1,5 @@
 <!-- Header Start -->
 <a id="haut"></a>
-<!-- <header>
-<div class="container" id="container-header">
-  <div class="row">
-    <div class="col-md-12">
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
-              <img class="logoHeader" src="{{ site.baseurl }}/img/logoEtac/etacLogoClassic.png" alt="Logo">
-            </a>
-          </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                {% for menu in site.data.[page.lang].menu %}
-                  <li><a href="{{ site.baseurl }}{{ menu[1].url }}"
-                    {% if menu[1].name == page.focus %}
-                      class="focusHeader"
-                    {% endif %} id="id-{{ menu[1].name }}"
-                  >{{ menu[1].name }}</a></li>
-                {% endfor %}
-                <li><a class="js-scrollTo" href="#contact">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </div>
-    <div class="wrapper languages">
-    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-    {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}"><span class="point">{{ page.lang }}</span></a> {% endfor %}
-  </div>
-</header>
- -->
-
-<style>
-
-</style>
 
  <header>
    <div class="wrapHeader">
@@ -58,7 +14,7 @@
         <i id="faMenu" class="fa fa-bars" aria-hidden="true" onclick="clickMenu();"></i>
         <i id="faCross" class="fa fa-times" aria-hidden="true" onclick="clickMenu();" ></i>
          <ul class="listeMenu">
-                {% for menu in site.data.[page.lang].nav.menu %}
+                {% for menu in site.data. nav.menu %}
                   <li><a href="{{ site.baseurl }}{{ menu[1].url }}"
                     {% if menu[1].name == page.focus %}
                       class="focusHeader"
@@ -67,16 +23,13 @@
                 {% endfor %}
                 <li><a class="js-scrollTo" href="#contact">Contact</a></li>
           </ul>
-        <div class="langs">
-          {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-          {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}"><span class="point">{{ page.lang }}</span></a> {% endfor %}
-        </div>
+        
       </div>
      </div>
    </div>
    <div id="navMenu">
      <ul class="listeNavMenu">
-                {% for menu in site.data.[page.lang].menu %}
+                {% for menu in site.data. menu %}
                   <li><a href="{{ site.baseurl }}{{ menu[1].url }}"
                     {% if menu[1].name == page.focus %}
                       class="focusHeader"
