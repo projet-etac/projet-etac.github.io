@@ -6,9 +6,7 @@
  * 
  */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
-@import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+
 /* var text-decoration */
 /*--
 	Common Css
@@ -17,17 +15,22 @@ body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Roboto', sans-serif;
-}
-h2 {
+h2::first-line {
   font-size: 30px;
   font-weight: 400;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 300;
+
+}
+#content h2 {
+  border-bottom: 1px solid grey;
+  padding-bottom: 3px;
+}
+
+#content p{
+  line-height: 150%;
 }
 h3 {
   font-size: 28px;
@@ -131,8 +134,10 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 23px;
   line-height: 40px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 3px;
+  text-shadow: 0 0 1px #000;
+  color: #fff;
 }
 /*--
 	wrapper Start

@@ -21,7 +21,7 @@ menu:
     url: "/actualite"
   wp:
     name: "e-TAC en détail"
-    url: "#"
+    url: "/details"
 
   articles:
     name: "Aller plus loin"
