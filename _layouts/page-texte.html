@@ -22,9 +22,29 @@
         </div>
       </div>
     </section>
+    <section id="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <div class="block">
+              <h2>{{ site.data.details.section-2.title1 }}</h2>
+                <p>{{ site.data.details.section-2.paragraphe1 | markdownify}}</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="block">
+            <h2>{{ site.data.details.section-2.title2 }}</h2>
+              <p>{{ site.data.details.section-2.paragraphe2 | markdownify}}</p>
+            </div>
+          </div><!-- .col-md-5 close -->
+        </div>
+      </div>
+    </section>
     <section>
       <div class="container">
     <div id="content" class="col-md-12">
+      <h1 class="text-center no-top-margin">Organisation du projet</h1>
+    <img src="img/wp.png" class="img-responsive center-block">
     {{ content }}
   </div>
 </div>
