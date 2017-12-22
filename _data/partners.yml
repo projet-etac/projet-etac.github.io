@@ -4,9 +4,9 @@
       #rajouter un logo partenaire : insérer image ( .png ou .jpg ) dans img/logoPartenaires et rajouter la ligne en respectant les modèles ci-dessous
       
       partenaire1:
-        nom: "Université de Lorraine"
-        logo: "univ-lorraine.jpg"
-        url: "http://www.univ-lorraine.fr/"
+        nom: "Académie de Nancy-Metz"
+        logo: "academie.png"
+        url: "http://www.ac-nancy-metz.fr/"  
 
       partenaire2:
         nom: "Réseau Canopé"
@@ -14,9 +14,9 @@
         url: "https://www.reseau-canope.fr/"
 
       partenaire3:
-        nom: "Académie de Nancy-Metz"
-        logo: "academie.png"
-        url: "http://www.ac-nancy-metz.fr/"  
+        nom: "Université de Lorraine"
+        logo: "univ-lorraine.jpg"
+        url: "http://www.univ-lorraine.fr/"
            
       partenaire4:
         nom: "Inria"

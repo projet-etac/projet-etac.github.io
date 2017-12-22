@@ -6,24 +6,35 @@
       bouton2: "Je suis chercheur"
     #section 1
     section-1:
-      titre: "Le projet E-Tac"
-      paragraphe1: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
-                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
-                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime rhoncus und ullamcorper 
-                barapli Chulien lacus kuglopf condimentum sit Oberschaeffolsheim wie schpeck Pfourtz ! ch'ai 
-                sit suspendisse Morbi Chulia Roberstau leo merci vielmols schnaps hopla munster yeuh."
-      paragraphe2: "ch'ai sit suspendisse Morbi 
-               Chulia Roberstau leo merci vielmols schnaps hopla munster yeuh. rucksack Coopé de Truchtersheim 
-               tristique risus, Heineken Racing. sit vulputate Gal ! vielmols, senectus id wurscht Salu bissame 
-               Wurschtsalad Huguette flammekueche rossbolla geht's turpis, commodo sed Strasbourg morbi placerat 
-               Spätzle Verdammi DNA, Salut bisamme Gal. consectetur libero. knepfle dui jetz gehts los s'guelt dolor 
-               amet gravida ac leo Christkindelsmärik mamsell schneck turpis quam. quam, amet, varius Carola 
-               kartoffelsalad météor hopla ornare eget ftomi! sagittis libero, non mollis hopla lotto-owe kougelhopf "
+      titre: "Le projet e-Tac"
+      paragraphe1: "Le projet e-TAC souhaite faciliter la mise en place d’approches pédagogiques mobilisatrices
+      d’apprentissages collaboratifs supportés par le numérique, et ce au sein même de la classe. Dans ce but,
+      e-TAC explore les potentialités des technologies hybrides que sont les interfaces tangibles et augmentées,
+      alternatives aux écrans/claviers/souris. Ces interfaces couplant la réalité augmentée à des interfaces
+      tangibles hybrident mondes physique et numérique, et permettent ainsi de replacer les interactions nécessaires
+      aux apprentissages directement dans l’environnement physique et social de la classe."
+      paragraphe2: "e-TAC a pour objectifs de concevoir et d'évaluer une nouvelle génération d’interfaces, mais aussi
+      d'accompagner les pratiques enseignantes associées. Pour répondre au mieux aux besoins et aux attentes des
+      élèves et des enseignants, tant ergonomiques, pédagogiques que technologiques, le projet couple les principes
+      et méthodes d’interaction Homme-machine et d’ingénierie pédagogique. Il se fonde sur les principes de la
+      conception participative et du co-design en living lab et en classes de Cycles 3 et 4. Il associe ainsi
+      praticiens, chercheurs, ingénieurs, mais aussi élèves et start-up tout au long du projet."
     #section 2
     section-2:
       titre: "Les ITA en deux mots"
-      paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
-                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
-                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime rhoncus und ullamcorper 
-                barapli Chulien lacus kuglopf condimentum sit Oberschaeffolsheim wie schpeck Pfourtz ! ch'ai 
-                sit suspendisse Morbi Chulia Roberstau leo merci vielmols schnaps hopla munster yeuh."
+      paragraphe: "Les interfaces Tangibles et Augmentées - ITA - couplent les atouts de la réalité augmentée et 
+      des interfaces tangibles. La réalité augmentée consiste généralement à créer informatiquement un environnement
+      visuel en trois dimensions dans lequel, ou avec lequel, un utilisateur peut interagir en temps réel et ce 
+      directement dans l’environnement physique où il se trouve. Les interfaces tangibles sont des objets physiques 
+      qui permettent d’interagir avec une donnée numérique (e.g.image, son) directement dans l’environnement réel et
+      qui a comme spécificité de présenter à l’utilisateur de façon plus signifiante, plus tangible, la tâche et/ou 
+      la donnée qui lui sont associées.
+      <br>
+      <br>Ces environnements hybrides offrent donc un support idéal à la construction de connaissances et 
+      aux interactions sociales. Les ITA ouvrent des possibilités nouvelles pour soutenir l’attention, l’explicitation, 
+      étayer l’apprentissage sur des aspects qui, sans elles, ne sont tout simplement pas perceptibles (par exemple, 
+      l’ajout de guides visuels réalistes et en trois dimensions dynamiques, le feedback d’auto-évaluation, etc.). 
+      Le caractère tangible des interfaces rend possible certaines manipulations dans et avec le monde réel jusqu’à 
+      présent impossibles (par exemple manipuler des astres, jouer avec son activité cérébrale) et permet ainsi aux 
+      apprenants d’accéder à la résolution de problèmes habituellement très complexes de par le degré d’abstraction 
+      demandé."

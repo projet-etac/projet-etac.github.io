@@ -4,18 +4,16 @@ authors:
   author1:
     prenom: "Stéphanie"
     nom: "Fleck"
-    post: "Maître de conférence"
-    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
-                auctor, Oberschaeffolsheim id, libero, blottkopf,"
+    post: "Maître de conférences"
+    bio: "Porteuse du projet, chercheuse en interactions Homme-machine pour l'apprentissage et ingénierie pédagogique"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
     photo-adulte: "fleckadulte.jpg"
     photo-enfant: "chercheur2.png"  
   author2:
     prenom: "Luc"
     nom: "Massou"
-    post: "Maître de conférence"
-    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
-                auctor, Oberschaeffolsheim id, libero, blottkopf,"
+    post: "Maître de conférences"
+    bio: "Responsable du groupe de travail Facteurs favorables à l’apprentissage collaboratif, chercheur en Sciences de l’information et de la communication"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
     photo-adulte: "Luc Massou adulte.jpg"
     photo-enfant: "chercheur2.png"    
@@ -23,9 +21,8 @@ authors:
   author3:
     prenom: "Benoît"
     nom: "Roussel"
-    post: "Maître de conférence"
-    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
-                auctor, Oberschaeffolsheim id, libero, blottkopf,"
+    post: "Maître de conférences"
+    bio: "Co-responsable du groupe de travail Co-conception en living lab et en classe, chercheur en innovation par l'usage"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
     photo-adulte: "chercheur1.png"
     photo-enfant: "chercheur2.png"
@@ -33,9 +30,8 @@ authors:
   author4:
     prenom: "Pierre"
     nom: "Humbert"
-    post: "Maître de conférence"
-    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
-                auctor, Oberschaeffolsheim id, libero, blottkopf,"
+    post: "Maître de conférences"
+    bio: "Co-responsable du groupe de travail Co-conception en living lab et en classe, chercheur en Sciences de l'information et de la communication"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
     photo-adulte: "chercheur1.png"
     photo-enfant: "chercheur2.png"  
@@ -44,8 +40,7 @@ authors:
     prenom: "Christian"
     nom: "Bastien"
     post: "Professeur des Universités"
-    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
-                auctor, Oberschaeffolsheim id, libero, blottkopf,"
+    bio: "Responsable du groupe de travail Définition des interactions favorables à l'apprentissage, chercheur en psychologie ergonomique"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
     photo-adulte: "chercheur1.png"
     photo-enfant: "chercheur2.png"       
@@ -54,8 +49,7 @@ authors:
     prenom: "Martin"
     nom: "Hachet"
     post: "Directeur de recherche"
-    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
-                auctor, Oberschaeffolsheim id, libero, blottkopf,"
+    bio: "Responsable du groupe de travail Conception des interfaces tangibles et augmentées, chercheur en interactions Homme-machine dans les contextes 3D"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
     photo-adulte: "Martin Hachet adulte.png"
     photo-enfant: "chercheur2.png" 
@@ -63,19 +57,17 @@ authors:
   author7:
     prenom: "David"
     nom: "Bertolo"
-    post: "Maître de conférence"
-    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
-                auctor, Oberschaeffolsheim id, libero, blottkopf,"
+    post: "Maître de conférences"
+    bio: "Responsable du groupe de travail Evaluation des impacts des ITA sur les pratiques d'apprentissage et d'enseignement, chercheur en interactions homme-machine pour l'apprentissage"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
-    photo-adulte: "chercheur1.png"
+    photo-adulte: "davidbertoloadulte.png"
     photo-enfant: "chercheur2.png"        
 
   author8:
     prenom: "Yves"
     nom: "Schneider"
     post: "Directeur territorial adjoint Région Grand Est - Réseau Canopé"
-    bio: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
-                auctor, Oberschaeffolsheim id, libero, blottkopf,"
+    bio: "Responsable du groupe de travail Valorisatio, dissémination et formation"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
     photo-adulte: "Yves Schneider adulte.jpg"
     photo-enfant: "chercheur1.png"

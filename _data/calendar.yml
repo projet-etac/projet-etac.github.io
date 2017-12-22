@@ -1,51 +1,48 @@
  #calendrier
     calendrier:
-      titre: "Le calendrier"
+      titre: "Grandes étapes du projet"
       container-1:
-        titre: "Mise en vente du produit"
-        paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
-                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
-                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
-        annee: "2018"
-        mois: "octobre"
+        titre: "Top départ"
+        paragraphe: "Le séminaire des 18 et 19 janvier réunit l'ensemble des partenaires impliqués dans le projet. Il marque
+        le lancement officiel de l'aventure."
+        annee: "2017"
+        mois: "Janvier"
         lien-bouton: "#"
       container-2:
-        titre: "Test du prototype auprès d'un groupe d'enseignants"
-        paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
-                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
-                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
-        annee: "2018"
-        mois: "août"
+        titre: "Co-design et design participatif"
+        paragraphe: "Après la mise au point des protocoles d'expérimentation, les premières sessions de co-design et de design
+        participatif peuvent avoir lieu. Elèves et enseignants deviennent co-concepteurs d’objets technologiques. A partir des
+        éléments recueillis, nous pourrons proposer une didactique de la conception participative en classe."
+        annee: "2017"
+        mois: "Novembre"
         lien-bouton: "#"
       container-3:
-        titre: "Création de la petite vis qui tient le boîtier"
-        paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
-                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
-                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
+        titre: "Retour et analyse des pratiques"
+        paragraphe: "Par le biais d'entretiens, d'enquêtes et d'observations en Living Lab et en classe, nous pouvons
+        identifier et comprendre les pratiques collaboratives actuellement existantes en contexte scolaire et la place
+        occupée par les dispositifs numériques dans ces processus, chez les élèves comme chez les enseignants."
         annee: "2018"
-        mois: "janvier"
+        mois: "Juin"
         lien-bouton: "#"
       container-4:
-        titre: "Acheminement des emballages à bulles"
-        paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
-                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
-                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
-        annee: "2017"
-        mois: "décembre"
+        titre: "Premiers prototypes fonctionnels"
+        paragraphe: "Fruits du dur labeur de nos ingénieurs, les premiers prototypes fonctionnels des interfaces
+        sont prêts ! Ils seront ensuite testés en Living Lab puis en classe."
+        annee: "2018"
+        mois: "Décembre"
         lien-bouton: "#"
       container-5:
-        titre: "Réflexion sur l'écosystème de l'innovation"
-        paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
-                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
-                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
-        annee: "2017"
-        mois: "septembre"
+        titre: "Finalisation des interfaces"
+        paragraphe: "A partir des résultats des tests, nous identifions les modèles interactionnels les plus
+        favorables aux apprentissages visés pour proposer des interfaces propices à l'utilisation en contexte
+        de classe."
+        annee: "2020"
+        mois: "Septembre"
         lien-bouton: "#"
       container-6:
-        titre: "Co-design avec des enfants"
-        paragraphe: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
-                auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
-                leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
-        annee: "2016"
-        mois: "janvier"
+        titre: "Valorisation des résultats"
+        paragraphe: "Les environnements conçus dans le cadre du projet seront ensuite diffusés, tout comme les
+        résultats de nos recherches."
+        annee: "2020"
+        mois: "Décembre"
         lien-bouton: "#"
