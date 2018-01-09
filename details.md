@@ -1,10 +1,10 @@
 ---
 layout: page-texte
-title: E-tac | En détails
+title: e-tac | En détail
 lang: fr
-title: E-tac | En détails
+title: e-tac | En détail
 ref: details
-focus: e-TAC en détails
+focus: e-TAC en détail
 ---
 
 ## WP1<br />Evaluation des facteurs favorables à l’apprentissage collaboratif supporté par les ITA 
@@ -30,7 +30,6 @@ Ceci se fera par (i) l’analyse qualitative et quantitative de classes comporte
 Les actions des WP3, 4 et 5 sont en partie superposées, le WP5 permettra la validation des modèles définis.
 
 
-
 ## WP4<br />Conception des systèmes interactifs et des techniques d’interaction associées
 Partenaire principal :  Inria-POTIOC  
 Autres :  PERSEUS, LCOMS, Open Edge  
@@ -42,7 +41,6 @@ Développement d’applications hybrides qui s’appuient sur les technologies p
 Des études utilisateur seront menées tout aux long des cycles de développement, en lien direct avec le WP3, afin d’assurer la validité des approches proposées. Pour la bonne réalisation de ces travaux, des efforts importants en R&D devront être mis en œuvre pour permettre l’émergence d’approches innovantes, mais aussi pour permettre une mise en application concrète en salles de classes.
 
 
-
 ## WP5<br />Evaluation pédagogique, ergonomique et culturelle des impacts d’ITA sur les apprentissages, les interactions pédagogiques et sociales, les pratiques professionnelles  
 Partenaire principal : LCOMS - ESPE  
 Autres : PERSEUS, CREM, Education Nationale  
@@ -51,7 +49,6 @@ Expérimentations par séries chronologiques comparatives et/ou comparaisons ent
 Evaluation de l’évolution des représentations et identification des principaux concepts obstacles aux apprentissages/ à l’enseignement notamment via l’analyse (i) des productions d’élèves écrites, dessinées et/ou verbales (en pré et post-tests, mais aussi tout au long de la période des enseignements) et (ii) des tâches professionnelles associées (analyse des écrits professionnels et d’entretiens).
 Analyse qualitative et quantitative des activités effectives et des interactions, assistées par les moyens méthodologiques identiques à ceux mobilisés par le WP3 (eye-tracking, analyse sémantique des échanges verbaux, analyse vidéo de l’activité et des comportements...).
 Analyse des captures d'évènements utilisateurs lors d’apprentissages collaboratifs (e.g. trajets de déplacement des objets) obtenues par le traçage des artefacts tangibles. Ces données seront croisées avec les données recueillies lors des diverses évaluations et observations des élèves afin de déterminer plus finement l'impact des interactions gestuelles, visuelles et verbales sur les processus d'apprentissage via ITA.
-
 
 
 ## WP6<br />Dissémination (formation, communication et valorisation) des résultats de la recherche et transfert vers un territoire numérique éducatif élargi

@@ -1,8 +1,9 @@
 ---
-layout: page-texte
-title: E-tac | Mentions légales et crédits
+layout: page-texte-sans-intro
+title: e-tac | Mentions légales et crédits
 lang: fr
 ref: mention
+focus: Mentions légales
 ---
 
 ## Informations éditoriales et techniques

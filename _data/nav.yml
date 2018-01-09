@@ -22,7 +22,6 @@ menu:
   wp:
     name: "e-TAC en détail"
     url: "/details"
-
   articles:
     name: "Aller plus loin"
     url: "/recherche"
