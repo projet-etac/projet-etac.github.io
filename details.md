@@ -1,8 +1,8 @@
 ---
 layout: page-texte
-title: e-tac | En détail
+title: e-TAC en détail
 lang: fr
-title: e-tac | En détail
+title: e-TAC en détail
 ref: details
 focus: e-TAC en détail
 ---

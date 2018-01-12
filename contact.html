@@ -1,0 +1,65 @@
+---
+layout: page
+title: Prendre contact
+lang: fr
+ref: contact
+focus: Prendre contact
+
+---
+<div class="spacer"></div>
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          <h1>{{ page.title }}</h1>
+        </div>
+    </div>
+  </div>
+</section>
+<section id="contactForm">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block center">
+          <h2>{{ site.data. nav.form.title }}</h2>
+        </div>
+      </div>  
+           <form id="contact-form" action="//formspree.io/{{ site.form_mail }}" method="post">
+              <div class="col-md-6 col-sm-12">
+                <div class="block">
+                    <div class="form-group">
+                      <input type="text" name="Name" placeholder="{{ site.data. nav.form.form-name }}"  class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" name="Email" placeholder="{{ site.data. nav.form.form-your-mail }}" class="form-control" required>
+                    </div>
+                       <!--   CONFIG -->
+                      <input class="is-hidden" type="hidden" name="_gotcha">
+                      <input type="hidden" name="_subject" value="Subject">
+                      <input type="hidden" name="_cc" value="{{ site.form_mail }}">
+                    <!--   /CONFIG -->
+
+                  </div>
+                </div> 
+                <div class="col-md-6 col-sm-12">
+                <div class="block">
+                    <div class="form-group">
+                       <textarea name="Message" cols="30" rows="6" placeholder="{{ site.data. nav.form.form-message }}" class="form-control message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                       <input type="hidden" name="_cc" value="{{ site.form_mail }}" class="form-control">
+                    </div>
+                  </div>
+                </div> 
+                <div class="col-md-12">
+                  <div class="block center">
+                     <div class="submit CTAButton">
+                          <input  id="submitBtn" class="resetButton"type="submit" value="{{ site.data. nav.form.bouton }}"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        </div>
+                  </div>
+                </div>
+           </form>
+      </div>
+    </div>
+</section>
+

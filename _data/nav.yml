@@ -25,6 +25,9 @@ menu:
   articles:
     name: "Aller plus loin"
     url: "/recherche"
+  contact:
+    name: "Prendre contact"
+    url: "/contact"
 
 #formulaire contact
 form:
