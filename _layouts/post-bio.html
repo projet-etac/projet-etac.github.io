@@ -1,0 +1,52 @@
+---
+layout: page
+---
+
+
+<div class="post">
+  <!-- Wrapper Start -->
+<!--   <div class="postContainer" style="border: 1px dotted #ddd;"> -->
+    <div class="container postContainer">
+        <div>
+            <div class="row">
+            
+              <div class="col-md-6">
+
+             <div class="post-info-wrapper">
+                <h1>{{ page.title }}</h1>
+             <ul>
+                
+               <li>
+                  <b>{{ page.grade}}</b>
+              </li>
+              <li>
+                {{page.fonction}}
+              </li>
+              <li><a href="{{page.web-labo}}" target="_blank">Site web de l'équipe</a></li>
+              <li><a href="{{page.web-perso}}" target="_blank">Site web personnel</a></li>
+           
+             </ul>
+            </div>
+            </div>
+          <div class="col-md-6">
+            <div class="imgPostContainer">
+             <img src="{{ site.baseurl }}/{{ page.picture-hover}}" alt="">
+          </div>
+        </div>
+          </div>
+          
+          <div class="block">
+            
+            
+            <hr />
+            <p>{{ content }}</p>
+          </div>
+        </div><!-- .col-md-7 close -->
+    </div>
+     <section>
+    
+      
+  </section>
+
+</div>
+

@@ -57,11 +57,15 @@ focus: Aller plus loin
                             <img src="{{ site.baseurl }}/{{ post.picture }}" alt="">
                             <div class="infosMobile">
                                 <h2>{{ post.title }}</h2>
-                                <p><i>{{ post.author}} - {{ post.date | date: "%d %b, %y" }}</i></p>
+                                <p><i>{{ post.author}} - {{ post.date | date: "%d/%m/%Y" }}</i></p>
                             </div>
                             <div class="overly">
                               <div class="position-center">
-                                <p>{{ post.summary | slice : 0,200}} ...</p>
+                                  {% if post.categorie == "acteurs" %}
+                                    <p> <img src="{{ site.baseurl }}/{{ post.picture-hover }}" alt=""></p>
+                                  {% else %}
+                                    <p>{{ post.summary | slice : 0,200}} ...</p>
+                                  {% endif %}
                               </div>
                             </div>
                           </a>
