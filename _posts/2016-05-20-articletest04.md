@@ -5,7 +5,7 @@ title: Lorem chnapsum
 lang : fr
 author: Francis Lala
 picture: img/slider_bg04.jpg
-categorie: cat2
+categorie: classe
 summary: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
                 auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
                 leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"

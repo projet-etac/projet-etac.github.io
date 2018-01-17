@@ -5,7 +5,7 @@ title: You must click
 lang : en
 author: Francis Lala
 picture: img/slider_bg02.jpg
-categorie: cat3
+categorie: classe
 summary: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
                 auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
                 leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
