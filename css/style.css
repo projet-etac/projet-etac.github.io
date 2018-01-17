@@ -38,3 +38,9 @@
   margin:0 auto;
   max-width: 600px;
 }
+
+#liste-bio {
+  border-left: #ddd 2px solid;
+  padding-left: 5px;
+  font-size: 120%
+}
