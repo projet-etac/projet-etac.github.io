@@ -51,7 +51,7 @@ authors:
     post: "Directeur de recherche"
     bio: "Responsable du groupe de travail Conception des interfaces tangibles et augmentées, chercheur en interactions Homme-machine dans les contextes 3D"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
-    photo-adulte: "Martin Hachet adulte.png"
+    photo-adulte: "hachet-adulte.jpg"
     photo-enfant: "chercheur2.png" 
 
   author7:
@@ -69,7 +69,7 @@ authors:
     post: "Directeur territorial adjoint Région Grand Est - Réseau Canopé"
     bio: "Responsable du groupe de travail Valorisatio, dissémination et formation"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
-    photo-adulte: "Yves Schneider adulte.jpg"
+    photo-adulte: "schneider-adulte.jpg"
     photo-enfant: "chercheur1.png"
 
     
