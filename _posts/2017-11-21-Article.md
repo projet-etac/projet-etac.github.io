@@ -6,6 +6,8 @@ lang : fr
 author: Pierre Kessler
 picture: img/old.jpg
 categorie: labo
+categorie-title: Au labo
+focus: Aller plus loin
 summary: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
                 auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 
                 leverwurscht Mauris eleifend picon bière habitant hopla nüdle elit réchime"
