@@ -1,41 +1,44 @@
 ---
 layout: page
 ---
-
+    <section id="global-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block">
+              <h1>{{page.categorie-title}}</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 <div class="post">
   <!-- Wrapper Start -->
 <!--   <div class="postContainer" style="border: 1px dotted #ddd;"> -->
     <div class="container postContainer">
         <div>
-          <div class="row">
-          <div class="col-md-12">
-              <div class="titlePost">
-                  <h1>{{ page.title }}</h1>
-              </div>
-          </div>
-            <div class="col-md-4">
-    
+            <div class="row">
+            <div class="col-md-6">
+             
 
              <div class="post-info-wrapper">
-             <ul>
+                <h1>{{ page.title }}</h1>
+              <ul id="liste-bio">
                <li>
-                 <p><b>Article rédigé par</b> <i>{{ page.author }}</i></p>
+                 <p><b>Par</b> <i>{{ page.author }}</i></p>
                </li>
                <!-- <li><img src="{{ site.data authors.{{ page.author }}. }}" alt=""></li> -->
                <li>
-                 <p><b>Date</b> {{ page.date | date: "%d %B, %Y" }}</p>
+                 <p><b>le</b> {{ page.date | date: "%d %B, %Y" }}</p>
                </li>
                <li>
-                  <p><b>Catégorie :</b> {{ page.categorie }}</p>
-               </li>
-               <li>
-                 <p>Article en {% if page.lang == fr %} français {% else %} anglais {% endif %}</p>
+                  <p><b>Catégorie :</b> {{ page.categorie-title }}</p>
                </li>
              </ul>
             </div>
             </div>
-          <div class="col-md-8">
+          <div class="col-md-6">
             <div class="imgPostContainer">
              <img src="{{ site.baseurl }}/{{ page.picture }}" alt="">
           </div>
@@ -50,8 +53,9 @@ layout: page
           </div>
         </div><!-- .col-md-7 close -->
     </div>
-     <section>
+     <!-- <section>
     <div class="container nextPrev">
+        <div class="row">
       {% if page.previous or page.next %}
           <div class="npC">
             {% if page.previous %}
@@ -78,9 +82,9 @@ layout: page
             </div>
           {% endif %}
         </div>
-
+</div>
       
-  </section>
+  </section> -->
 <!--      </div> -->
 </div>
 <!-- <p class="center-text" style="padding: 30px;">
