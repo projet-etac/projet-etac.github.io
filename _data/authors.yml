@@ -15,7 +15,7 @@ authors:
     post: "Maître de conférences"
     bio: "Responsable du groupe de travail Facteurs favorables à l’apprentissage collaboratif, chercheur en Sciences de l’information et de la communication"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
-    photo-adulte: "Luc Massou adulte.jpg"
+    photo-adulte: "massou-adulte.jpg"
     photo-enfant: "chercheur2.png"    
 
   author3:
