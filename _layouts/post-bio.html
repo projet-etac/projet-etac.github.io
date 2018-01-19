@@ -53,10 +53,36 @@ layout: page
           </div>
         </div><!-- .col-md-7 close -->
     </div>
-     <section>
+     <!-- <section>
     
-      
-  </section>
+        <div class="container nextPrev">
+            {% if page.previous or page.next %}
+                <div class="npC">
+                  {% if page.previous %}
+                  <p>{{ page.previous.title }}</p>
+                    <div class="nextPrevImg">
+                      <a href="{{ page.previous.url | absolute_url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}"><img src="{{ site.baseurl }}/{{ page.previous.picture }}" alt=""><div class="centerI"><i class="fa fa-arrow-left" aria-hidden="true"></i></div></a>
+                    </div>
+                  {% else %}
+                    <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+                  {% endif %}
+                </div>
+                <div class="npC">
+                {% if page.next %}
+                <p>{{ page.previous.title }}</p>
+                  <div class="nextPrevImg">
+                    <a href="{{ page.next.url | absolute_url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}">
+                      <img src="{{ site.baseurl }}/{{ page.next.picture }}" alt="">
+                      <div class="centerI"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                     </a>
+                  </div>
+                  {% else %}
+                    <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+                  {% endif %}
+                  </div>
+                {% endif %}
+              </div>
+  </section> -->
 
 </div>
 
