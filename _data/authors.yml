@@ -5,7 +5,8 @@ authors:
     prenom: "Stéphanie"
     nom: "Fleck"
     post: "Maître de conférences"
-    bio: "Porteuse du projet, chercheuse en interactions Homme-machine pour l'apprentissage et ingénierie pédagogique"
+    bio: "Porteuse du projet, chercheuse en IHM pour l'apprentissage et ingénierie
+    <br> pédagogique"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
     photo-adulte: "fleckadulte.jpg"
     photo-enfant: "chercheur2.png"  
@@ -15,16 +16,17 @@ authors:
     post: "Maître de conférences"
     bio: "Responsable du groupe de travail Facteurs favorables à l’apprentissage collaboratif, chercheur en Sciences de l’information et de la communication"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
-    photo-adulte: "massou-adulte.jpg"
+    photo-adulte: "massou-adulte-authors.jpg"
     photo-enfant: "chercheur2.png"    
 
   author3:
     prenom: "Benoît"
     nom: "Roussel"
     post: "Maître de conférences"
-    bio: "Co-responsable du groupe de travail Co-conception en living lab et en classe, chercheur en innovation par l'usage"
+    bio: "Co-responsable du groupe de travail Co-conception
+    <br> en living lab et en classe, chercheur en innovation par l'usage"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
-    photo-adulte: "chercheur1.png"
+    photo-adulte: "roussel-adulte-authors.png"
     photo-enfant: "chercheur2.png"
 
   author4:
@@ -33,7 +35,7 @@ authors:
     post: "Maître de conférences"
     bio: "Co-responsable du groupe de travail Co-conception en living lab et en classe, chercheur en Sciences de l'information et de la communication"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
-    photo-adulte: "chercheur1.png"
+    photo-adulte: "humbert-adulte-authors.png"
     photo-enfant: "chercheur2.png"  
 
   author5:
@@ -42,23 +44,23 @@ authors:
     post: "Professeur des Universités"
     bio: "Responsable du groupe de travail Définition des interactions favorables à l'apprentissage, chercheur en psychologie ergonomique"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
-    photo-adulte: "chercheur1.png"
+    photo-adulte: "christianadulte2-authors.jpg"
     photo-enfant: "chercheur2.png"       
 
   author6:
     prenom: "Martin"
     nom: "Hachet"
     post: "Directeur de recherche"
-    bio: "Responsable du groupe de travail Conception des interfaces tangibles et augmentées, chercheur en interactions Homme-machine dans les contextes 3D"
+    bio: "Responsable du groupe de travail Conception des interfaces tangibles et augmentées, chercheur en IHM dans les contextes 3D"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
-    photo-adulte: "hachet-adulte.jpg"
+    photo-adulte: "hachet-adulte-authors.jpg"
     photo-enfant: "chercheur2.png" 
 
   author7:
     prenom: "David"
     nom: "Bertolo"
     post: "Maître de conférences"
-    bio: "Responsable du groupe de travail Evaluation des impacts des ITA sur les pratiques d'apprentissage et d'enseignement, chercheur en interactions homme-machine pour l'apprentissage"
+    bio: "Responsable du groupe de travail Evaluation des impacts des ITA sur les pratiques d'apprentissage et d'enseignement, chercheur en IHM pour l'apprentissage"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
     photo-adulte: "davidbertoloadulte.png"
     photo-enfant: "chercheur2.png"        
@@ -67,9 +69,11 @@ authors:
     prenom: "Yves"
     nom: "Schneider"
     post: "Directeur territorial adjoint Région Grand Est - Réseau Canopé"
-    bio: "Responsable du groupe de travail Valorisatio, dissémination et formation"
+    bio: "Responsable du groupe de travail
+    <br> Communication, valorisation, dissémination
+    <br> et formation"
     #rajouter une photo : insérer image ( .png ou .jpg ) dans img/photoChercheur et rajouter la ligne en respectant les modèles ci-dessous
-    photo-adulte: "schneider-adulte.jpg"
+    photo-adulte: "schneider-adulte-authors.jpg"
     photo-enfant: "chercheur1.png"
 
     
