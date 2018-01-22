@@ -7,7 +7,7 @@ grade: Directeur Territorial Adjoint de Réseau Canopé Grand Est
 fonction: Responsable du WP6
 lang : fr
 picture: img/photoChercheur/schneider-adulte.jpg
-picture-hover: img/photoChercheur/schneider-enfant.jpg
+picture-hover: img/photoChercheur/schneider-enfant-posts.jpg
 categorie: acteurs
 categorie-title: Qui sommes-nous ?
 web-labo: https://www.reseau-canope.fr/

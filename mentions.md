@@ -8,18 +8,16 @@ focus: Mentions légales
 
 ## Informations éditoriales et techniques
 ### Editeur du site
-e-TAC est un site web institutionnel de l’Université de Lorraine&nbsp; à vocation d’information et de communication externe. 
+e-TAC est un site web institutionnel hébergé par l’Université de Lorraine à vocation d’information et de communication externe. 
 * Responsable légal : Pierre MUTZENHARDT, président de l’Université de Lorraine
-* Directeur de la publication :&nbsp;Pierre MUTZENHARDT, président&nbsp;de l’Université de Lorraine
-* Responsable éditorial :
-* Comité éditorial web : Direction de la communication l’Université de Lorraine
-* Conception, organisation et rédaction des contenus : Direction de la communication de l’Université de Lorraine
-* Habillage graphique : Direction de la communication de l’Université de Lorraine - SAATCHI
-* Crédits photos : Direction de la communication de l’Université de Lorraine,&nbsp; Alex Hérail,&nbsp;L'Oeil Créatif - Clotilde Verdenal,&nbsp; Fotolia, Marc François&nbsp;
+* Directeur de la publication : Stéphanie FLECK, porteuse du projet e-TAC
+* Responsable éditorial : Réseau Canopé Grand Est
+* Conception, organisation et rédaction des contenus : Réseau Canopé Grand Est
+* Habillage graphique : Réseau Canopé Grand Est - ThemeFischer : thème AirSpace
+* Crédits photos : James Pond, chercheurs et enseignants du projet e-TAC
 
 ### Informations techniques
-Webmaster : Service communication de l’Université de Lorraine
-Technologies utilisées : ce site utilise le système de gestion de contenu Drupal
+Webmaster : Réseau Canopé Grand Est
 
 ## Propriété intellectuelle
 Ce site est une œuvre de création. Son contenu relève de la législation française et internationale sur le droit d'auteur et la propriété intellectuelle.  
@@ -32,7 +30,7 @@ La reproduction partielle des contenus de ce site est néanmoins autorisée, tou
 
 * Diffusion restreinte et gratuite ;
 * Respect de l’intégrité des documents reproduits ;
-* Citation claire et lisible de la source sous la forme suivante : « Ce document provient du site web : <a href="http://www.univ-lorraine.fr">http://www.univ-lorraine.fr</a> - Droits de reproduction et de représentation réservés et strictement limités. »
+* Citation claire et lisible de la source sous la forme suivante : « Ce document provient du site web : <a href="http://www.e-tac.univ-lorraine.fr">http://www.e-tac.univ-lorraine.fr</a> - Droits de reproduction et de représentation réservés et strictement limités. »
 
 ## Bases de données
 Il est interdit d’extraire, réutiliser, stocker, reproduire, représenter ou conserver, directement ou indirectement, sur un support quelconque, par tout moyen et sous toute forme que ce soit, tout ou partie qualitativement ou quantitativement substantielle, du contenu des bases de données figurant sur ce site, ainsi que d’en faire l’extraction ou la réutilisation répétée et systématique de parties qualitativement et quantitativement non substantielles lorsque ces opérations excèdent manifestement les conditions d’utilisation normale.  
@@ -43,7 +41,7 @@ Il est rappelé que le fait d'accéder ou de se maintenir frauduleusement dans u
 
 ## Protection des données à caractère personnel
 Ce site web, qui met en œuvre des traitements de données sur des personnes physiques, respecte les règles prévues par la dispense de déclaration n°7 adoptée par la Commission Nationale Informatique et Libertés.  
-Conformément à la loi n°78-17 du 6 janvier 1978 modifiée "Informatique et Libertés" (articles 34 à 36), vous disposez d'un droit d'accès, de rectification et de suppression des données vous concernant en ligne sur ce site. Pour exercer ce droit, vous pouvez vous adresser au <a href="mailto:webmestre@univ-lorraine.fr?subject=Probl%C3%A8me%20sur%20le%20site%20de%20l%27Universit%C3%A9%20de%20Lorraine">webmestre</a> de ce site.  
+Conformément à la loi n°78-17 du 6 janvier 1978 modifiée "Informatique et Libertés" (articles 34 à 36), vous disposez d'un droit d'accès, de rectification et de suppression des données vous concernant en ligne sur ce site. Pour exercer ce droit, vous pouvez vous adresser au <a href="mailto:e-tac-contact@univ-lorraine.fr?subject=Probl%C3%A8me%20sur%20le%20site%20e-TAC">webmestre</a> de ce site.  
 
 ## Accès au site et clause de non-responsabilité
 L'utilisateur de ce site reconnaît disposer de la compétence et des moyens nécessaires pour accéder et utiliser ce site.  
@@ -55,7 +53,7 @@ Toute information pourra être modifiée sans avertissement préalable.
 
 Conformément à la loi n°2004-575 du 21 juin 2004 modifiée pour la confiance dans l’économie numérique, vous pouvez signaler tout contenu susceptible de revêtir les caractères des infractions visées aux cinquième et huitième alinéas de l’article 24 de la loi du 29 juillet 1881 sur la liberté de presse et aux articles 227-23 et 227-24 du Code pénal.  
 
-Pour nous signaler un tel contenu, nous vous invitons à contacter le <a href="mailto:webmestre@univ-lorraine.fr?subject=Probl%C3%A8me%20sur%20le%20site%20Universit%C3%A9%20de%20Lorraine">webmestre</a> en précisant la page ou le lien vers le contenu que vous estimez illicite.
+Pour nous signaler un tel contenu, nous vous invitons à contacter le <a href="mailto:e-tac-contact@univ-lorraine.fr?subject=Probl%C3%A8me%20sur%20le%20site%20e-TAC">webmestre</a> en précisant la page ou le lien vers le contenu que vous estimez illicite.
 
 ## Liens hypertextes
 Les liens hypertextes mis en place par des tiers et pointant vers les pages du site web de l'Université de Lorraine ou de ses sites satellites sont autorisés pour autant qu'ils ne nuisent pas à son contenu en le dénaturant ou lui portant atteinte et qu'ils permettent à l'utilisateur d'identifier l'origine et l'auteur du document.  
