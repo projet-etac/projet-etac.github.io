@@ -32,8 +32,12 @@ layout: page
               <li>
                 {{page.fonction}}
               </li>
-              <li><a href="{{page.web-labo}}" target="_blank">Site web de l'équipe</a></li>
-              <li><a href="{{page.web-perso}}" target="_blank">Site web personnel</a></li>
+              {% if page.web-labo %}
+                <li><a href="{{page.web-labo}}" target="_blank">Site web de l'équipe</a></li>
+              {% endif %}
+              {% if page.web-perso %}
+                <li><a href="{{page.web-perso}}" target="_blank">Site web personnel</a></li>
+              {% endif %}
            
              </ul>
             </div>
