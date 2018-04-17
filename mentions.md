@@ -1,6 +1,6 @@
 ---
 layout: page-texte-sans-intro
-title: e-tac | Mentions légales et crédits
+title: e-TAC | Mentions légales et crédits
 lang: fr
 ref: mention
 focus: Mentions légales

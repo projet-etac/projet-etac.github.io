@@ -17,13 +17,13 @@ menu:
     url: "/index"
   actus:
     name: "Actualités"
-    url: "/actualite"
+    url: "/actualites"
   enseignement:
     name: "Enseignants"
     url: "/enseignement"
-  recherche:
-    name: "Chercheurs"
-    url: "/recherche"
+  details:
+    name: "Détails"
+    url: "/details"
   calendar:
     name: "Calendrier"
     url: "/index#calendar"
@@ -179,14 +179,13 @@ pages:
   actus:
     #Première section sur laquelle se trouve l'image de fond
     section-1:
-      title: "Nos dernières actualités"
-  
-  #page chercheurs 
+      title:  
+  #page posts
 
-  recherche:
+  details:
     section-1:
-      title: "La recherche au service de l'éducation"
-    section-2:
+      title: 
+    section-2: 
       title1: "Des chercheurs, des expériences"
       paragraphe1: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
                 auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 

@@ -1,10 +1,10 @@
 ---
 layout: page-texte
-title: e-TAC en détail
+title: Notre projet
 lang: fr
-title: e-TAC en détail
-ref: details
-focus: e-TAC en détail
+title: 
+ref: projet
+focus: Notre projet
 ---
 
 ## WP1<br />Evaluation des facteurs favorables à l’apprentissage collaboratif supporté par les ITA 
