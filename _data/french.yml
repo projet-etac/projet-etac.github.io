@@ -17,13 +17,13 @@ menu:
     url: "/index"
   actus:
     name: "Actualités"
-    url: "/actualites"
+    url: "/actualite"
   enseignement:
     name: "Enseignants"
     url: "/enseignement"
-  details:
-    name: "Détails"
-    url: "/details"
+  recherche:
+    name: "Chercheurs"
+    url: "/recherche"
   calendar:
     name: "Calendrier"
     url: "/index#calendar"
@@ -179,13 +179,14 @@ pages:
   actus:
     #Première section sur laquelle se trouve l'image de fond
     section-1:
-      title:  "e-TAC | Actualités"
-  #page posts
+      title: "Nos dernières actualités"
+  
+  #page chercheurs 
 
-  details:
+  recherche:
     section-1:
-      title: "e-TAC en détail"
-    section-2: 
+      title: "La recherche au service de l'éducation"
+    section-2:
       title1: "Des chercheurs, des expériences"
       paragraphe1: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 
                 auctor, Oberschaeffolsheim id, libero, blottkopf, Pellentesque ornare tellus aliquam purus 

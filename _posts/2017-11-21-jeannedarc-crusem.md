@@ -7,7 +7,7 @@ author: e-TAC
 picture: img/jeannedarc.jpg
 categorie: classe
 categorie-title: En classe
-focus: e-TAC en détail
+focus: Aller plus loin
 summary: "Des élèves de CM1/CM2 vont créer un plan sensible de leur ville. C'est un projet innovant  qui leur permettra de mieux connaître leur environnement proche et de développer l'entraide et la communication."
 
 ---

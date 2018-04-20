@@ -7,7 +7,7 @@ author: e-TAC
 picture: img/interviewpatrick-posts.jpg
 categorie: classe
 categorie-title: En classe
-focus: e-TAC en détail
+focus: Aller plus loin
 summary: La co-conception en classe de technologie, une interview de Patrick Lay
 
 ---

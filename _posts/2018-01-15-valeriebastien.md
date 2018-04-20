@@ -10,7 +10,7 @@ picture: img/photoEnseignants/valerieenfant.jpg
 picture-hover: img/photoEnseignants/valerieadulte.jpg
 categorie: acteurs
 categorie-title: Qui sommes-nous ?
-focus: e-TAC en détail
+focus: Aller plus loin
 ---
 
 Après des études scientifiques et plus particulièrement mathématiques, Valérie Bastien a décidé de s'orienter vers l'enseignement. Elle a tout d'abord enseigné 12 années dans diverses écoles maternelles de la Moselle, et elle occupe depuis 10 ans un poste en cycle 3 à l'école élémentaire Crusem de Saint-Avold.  
