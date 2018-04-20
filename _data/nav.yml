@@ -7,7 +7,7 @@ boutons:
 # Vos réseaux sociaux sont disponnible dans le fichier config.yml
 social:
   twitter:
-    title: 
+    title: "e-TAC | Actualités"
     url: "https://twitter.com/Projet_eTAC"
 
 # Les titres du menu en français

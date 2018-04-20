@@ -1,8 +1,8 @@
 ---
 layout: page-texte
-title: Notre projet
+title: e-TAC | Notre projet
 lang: fr
-title: 
+title: e-TAC | Notre projet
 ref: projet
 focus: Notre projet
 ---

@@ -179,12 +179,12 @@ pages:
   actus:
     #Première section sur laquelle se trouve l'image de fond
     section-1:
-      title:  
+      title:  "e-TAC | Actualités"
   #page posts
 
   details:
     section-1:
-      title: 
+      title: "e-TAC en détail"
     section-2: 
       title1: "Des chercheurs, des expériences"
       paragraphe1: "Lorem Elsass ipsum et porta gewurztraminer semper Kabinetpapier non nullam geïz 

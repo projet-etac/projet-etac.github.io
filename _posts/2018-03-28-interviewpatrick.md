@@ -11,7 +11,7 @@ focus: e-TAC en détail
 summary: La co-conception en classe de technologie, une interview de Patrick Lay
 
 ---
-<i>L'équipe d'e-TAC a échangé avec Patrick Lay, professeur de technologie au Collège Jean de la Fontaine de Saint-Avold. Patrick nous explique pourquoi et comment il s'est investi dans notre projet.</i>
+<i>L'équipe d'e-TAC a échangé avec Patrick Lay, professeur de technologie au Collège Jean de la Fontaine de Saint-Avold. Patrick nous explique pourquoi et comment il s'est investi dans le projet.</i>
 
 ### Pourquoi avez-vous décidé de vous lancer dans le projet e-TAC ? 
 Il y a plusieurs facteurs qui m'ont poussé à m'engager aux côtés de mes collègues du collège Jean de la Fontaine de Saint-Avold dans cette <i>aventure pédagogique collective</i> que représente le projet e-TAC.
