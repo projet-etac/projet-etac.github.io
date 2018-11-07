@@ -13,6 +13,6 @@ categorie-title: Qui sommes-nous ?
 focus: Aller plus loin
 ---
 
-Après une maîtrise en « Echanges internationaux » décrochée en 1994, Annick Deilhes enseigne depuis 1996, année d’obtention de son CAPE. D’abord enseignante en maternelle en Alsace, puis en CM1/CM2 au Val de Guéblange et à L’Hôpital, elle occupe un poste en cycle 3 à l’école élémentaire Emile Huchet depuis septembre 2000.
+Après une maîtrise en « Echanges internationaux » décrochée en 1994, Annick Deilhes occupe un poste de secrétaire de direction et prépare le CAPE en parallèle. Elle enseigne depuis 1996, année d’obtention du concours. D’abord enseignante en maternelle en Alsace, puis en CM1/CM2 au Val de Guéblange et à L’Hôpital, elle occupe un poste en cycle 3 à l’école élémentaire Emile Huchet depuis septembre 2000.
 <br>
 <br> Le projet est pour elle l’occasion de prendre du recul par rapport à sa pratique pédagogique et de mettre en œuvre des pratiques innovantes, qu'elles perçoit comme plus en phase avec les apprenants d’aujourd’hui.
