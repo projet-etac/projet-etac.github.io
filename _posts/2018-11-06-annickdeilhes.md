@@ -4,7 +4,7 @@ layout: post-bio
 author: e-TAC
 title: Annick <br> Deilhes
 grade: Professeur des écoles à l’école élémentaire Emile Huchet de Saint-Avold
-fonction: Co-conception - Classe de CM1-CM2
+fonction: Co-conception - Classe de CE2-CM1
 lang : fr
 picture: img/photoEnseignants/annickenfant.jpg
 picture-hover: img/photoEnseignants/annickadulte.jpg
