@@ -27,9 +27,9 @@
       container-4:
         titre: "Premiers prototypes fonctionnels"
         paragraphe: "Fruits du dur labeur de nos ingénieurs, les premiers prototypes fonctionnels des interfaces
-        sont prêts ! Ils sont ensuite testés en Living Lab puis en classe."
-        annee: "2018"
-        mois: "Décembre"
+        sont prêts ! Ils sont ensuite testés en contexte réel de classe."
+        annee: "2019"
+        mois: "Septembre"
         lien-bouton: "#"
       container-5:
         titre: "Finalisation des interfaces"

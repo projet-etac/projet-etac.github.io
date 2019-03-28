@@ -1,12 +1,12 @@
 #section accueil
     section-accueil:
       titre: "e-TAC"
-      paragraphe1: "Environnements Tangibles Augmentés pour l'Apprentissage Collaboratif"
+      paragraphe1: "Environnement Tangible Augmenté pour les Apprentissages Collaboratifs"
       bouton1: "Je suis enseignant"
       bouton2: "Je suis chercheur"
     #section 1
     section-1:
-      titre: "Le projet e-Tac"
+      titre: "Le projet e-TAC"
       paragraphe1: "Le projet e-TAC souhaite faciliter la mise en place d’approches pédagogiques mobilisatrices
       d’apprentissages collaboratifs supportés par le numérique, et ce au sein même de la classe. Dans ce but,
       e-TAC explore les potentialités des technologies hybrides que sont les interfaces tangibles et augmentées,
